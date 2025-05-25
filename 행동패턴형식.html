@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>강아지 행동패턴</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f7fc;
+            margin: 0;
+            padding: 0;
+        }
+        header, nav, .submenu {
+            background-color: white;
+            border-bottom: 1px solid #ccc;
+        }
+        header {
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+        }
+        header .logo {
+            font-weight: bold;
+            font-size: 24px;
+            margin-right: auto;
+        }
+        nav, .submenu {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            padding: 10px 0;
+        }
+        nav a, .submenu a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        .submenu a.active {
+            background-color: #cce6ff;
+            padding: 5px 10px;
+            border-radius: 4px;
+        }
+
+        .content-container {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        .info-box {
+            display: flex;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #fff;
+        }
+        .info-box img {
+            width: 150px;
+            height: 100px;
+            object-fit: cover;
+            margin-right: 20px;
+        }
+        .info-box .text {
+            display: flex;
+            align-items: center;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .video-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+        .video-card {
+            background-color: #fff;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            padding: 10px;
+        }
+        .video-card video {
+            width: 100%;
+            height: auto;
+            border-radius: 4px;
+        }
+        .video-card .desc {
+            margin-top: 8px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">로고</div>
+        <nav>
+            <a href="#">강아지</a>
+            <a href="#">고양이</a>
+            <a href="#">24시 동물병원</a>
+        </nav>
+    </header>
+
+    <div class="submenu">
+        <a href="#">주의사항</a>
+        <a href="#">응급처치</a>
+        <a href="#" class="active">행동패턴</a>
+    </div>
+
+    <div class="content-container">
+        <!-- 정보 박스 1 -->
+        <div class="info-box">
+            <img src="https://via.placeholder.com/150x100" alt="대표 행동 이미지">
+            <div class="text">행동</div>
+        </div>
+
+        <!-- 정보 박스 2 -->
+        <div class="info-box">
+            <img src="https://via.placeholder.com/150x100" alt="대표 행동 이미지">
+            <div class="text">행동</div>
+        </div>
+
+        <!-- 비디오 영역 -->
+        <div class="video-grid">
+            <div class="video-card">
+                <video controls>
+                    <source src="sample1.mp4" type="video/mp4">
+                </video>
+                <div class="desc">행동 영상 설명 1</div>
+            </div>
+            <div class="video-card">
+                <video controls>
+                    <source src="sample2.mp4" type="video/mp4">
+                </video>
+                <div class="desc">행동 영상 설명 2</div>
+            </div>
+            <div class="video-card">
+                <video controls>
+                    <source src="sample3.mp4" type="video/mp4">
+                </video>
+                <div class="desc">행동 영상 설명 3</div>
+            </div>
+            <div class="video-card">
+                <video controls>
+                    <source src="sample4.mp4" type="video/mp4">
+                </video>
+                <div class="desc">행동 영상 설명 4</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
