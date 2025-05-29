@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>응급처치</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f7fc;
+      margin: 0;
+      padding: 0;
+    }
+
+    header, nav, .submenu {
+      background-color: white;
+      border-bottom: 1px solid #ccc;
+    }
+
+    header {
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+    }
+
+    header .logo {
+      font-weight: bold;
+      font-size: 24px;
+      margin-right: auto;
+    }
+
+    nav, .submenu {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 10px 0;
+    }
+
+    nav a, .submenu a {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+    }
+
+    .submenu a.active {
+      background-color: #cce6ff;
+      padding: 5px 10px;
+      border-radius: 4px;
+    }
+
+    .content-container {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    .info-box {
+      cursor: pointer;
+      border: 2px solid #ccc;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      padding: 20px;
+      background-color: #fff;
+      box-sizing: border-box;
+      transition: box-shadow 0.3s;
+    }
+    .info-box:hover {
+      box-shadow: 0 0 10px rgba(0,0,0,0.15);
+    }
+
+    .info-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .info-header .text {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .info-header img {
+      width: 200px;
+      height: 130px;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+
+    /* 하위 정보 숨김 기본 */
+    .sub-info {
+      margin-top: 15px;
+      padding: 15px;
+      background-color: #e9f1ff;
+      border-radius: 6px;
+      font-size: 16px;
+      line-height: 1.5;
+      display: none;
+    }
+
+    /* 영상 슬라이더 부분 */
+    .slider-container {
+      margin-top: 40px;
+      overflow-x: hidden;
+    }
+
+    .slider {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+    }
+
+    .slider-page {
+      display: flex;
+      gap: 20px;
+      flex-shrink: 0;
+      width: 1000px;
+      justify-content: flex-start;
+    }
+
+    .video-card {
+      background-color: #fff;
+      border: 2px solid #ccc;
+      border-radius: 8px;
+      padding: 10px;
+      width: calc((1000px - 40px) / 3);
+      box-sizing: border-box;
+    }
+
+    .video-card video {
+      width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+
+    .video-card .desc {
+      margin-top: 8px;
+      font-size: 14px;
+    }
+
+    .page-indicator {
+      text-align: center;
+      margin-top: 15px;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .arrow-btn {
+      cursor: pointer;
+      padding: 6px 12px;
+      margin: 0 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      background-color: white;
+      font-size: 18px;
+      transition: background-color 0.2s;
+    }
+
+    .arrow-btn:hover {
+      background-color: #eee;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">로고</div>
+  <nav>
+    <a href="#">강아지</a>
+    <a href="#">고양이</a>
+    <a href="#">24시 동물병원</a>
+  </nav>
+</header>
+
+<div class="submenu">
+  <a href="#">주의사항</a>
+  <a href="#" class="active">응급처치</a>
+  <a href="#">행동패턴</a>
+</div>
+
+<div class="content-container">
+  <!-- info-box 3개 -->
+  <div class="info-box" onclick="toggleSubInfo(this)">
+    <div class="info-header">
+      <div class="text">질식 시 응급처치 방법</div>
+      <img src="https://via.placeholder.com/200x130" alt="응급처치1" />
+    </div>
+    <div class="sub-info">
+      <p>질식이 발생하면 즉시 기도 개방을 시도하세요. 기침이 나오면 강제로 제거하지 말고 기침을 유도하세요. 기도가 완전히 막혔다면 하임리히법을 실시해야 합니다.</p>
+      <ul>
+        <li>기침 유도: 기도가 막히지 않았으면 자연적으로 제거될 수 있도록 도와주세요.</li>
+        <li>하임리히법: 가슴과 복부에 압력을 가해 이물질을 배출합니다.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="info-box" onclick="toggleSubInfo(this)">
+    <div class="info-header">
+      <div class="text">화상 시 응급처치 방법</div>
+      <img src="https://via.placeholder.com/200x130" alt="응급처치2" />
+    </div>
+    <div class="sub-info">
+      <p>화상 부위를 즉시 흐르는 찬물에 10분 이상 식혀주세요. 물집이 생기면 터뜨리지 말고 깨끗한 거즈로 감싸서 감염을 예방합니다.</p>
+      <ul>
+        <li>즉시 냉각: 화상 부위를 차가운 물로 식힙니다.</li>
+        <li>물집 관리: 물집을 터뜨리지 마세요.</li>
+        <li>의료진 상담: 심한 화상은 병원을 방문하세요.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="info-box" onclick="toggleSubInfo(this)">
+    <div class="info-header">
+      <div class="text">출혈 시 응급처치 방법</div>
+      <img src="https://via.placeholder.com/200x130" alt="응급처치3" />
+    </div>
+    <div class="sub-info">
+      <p>출혈 부위를 깨끗한 천이나 거즈로 강하게 눌러 지혈합니다. 출혈이 심하면 즉시 병원으로 이동하세요.</p>
+      <ul>
+        <li>지혈: 깨끗한 천으로 강하게 눌러 출혈을 막습니다.</li>
+        <li>상처 높이: 출혈 부위를 심장보다 높게 유지합니다.</li>
+        <li>심한 출혈 시 119 호출.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 영상 슬라이더 -->
+  <div class="slider-container">
+    <div class="slider" id="videoSlider">
+      <!-- 페이지 1 -->
+      <div class="slider-page">
+        <div class="video-card">
+          <video controls><source src="sample1.mp4" type="video/mp4" /></video>
+          <div class="desc">응급처치 영상 1</div>
+        </div>
+        <div class="video-card">
+          <video controls><source src="sample2.mp4" type="video/mp4" /></video>
+          <div class="desc">응급처치 영상 2</div>
+        </div>
+        <div class="video-card">
+          <video controls><source src="sample3.mp4" type="video/mp4" /></video>
+          <div class="desc">응급처치 영상 3</div>
+        </div>
+      </div>
+
+      <!-- 페이지 2 -->
+      <div class="slider-page">
+        <div class="video-card">
+          <video controls><source src="sample4.mp4" type="video/mp4" /></video>
+          <div class="desc">응급처치 영상 4</div>
+        </div>
+        <div class="video-card">
+          <video controls><source src="sample5.mp4" type="video/mp4" /></video>
+          <div class="desc">응급처치 영상 5</div>
+        </div>
+        <div class="video-card">
+          <video controls><source src="sample6.mp4" type="video/mp4" /></video>
+          <div class="desc">응급처치 영상 6</div>
+        </div>
+      </div>
+
+      <!-- 페이지 3 -->
+      <div class="slider-page">
+        <div class="video-card">
+          <video controls><source src="sample7.mp4" type="video/mp4" /></video>
+          <div class="desc">응급처치 영상 7</div>
+        </div>
+        <div class="video-card">
+          <video controls><source src="sample8.mp4" type="video/mp4" /></video>
+          <div class="desc">응급처치 영상 8</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 화살표와 숫자 -->
+    <div class="page-indicator" id="pageIndicator">
+      <span class="arrow-btn" onclick="prevSlide()">&#8592;</span>
+      <span id="pageNumber">1 / 3</span>
+      <span class="arrow-btn" onclick="nextSlide()">&#8594;</span>
+    </div>
+  </div>
+</div>
+
+<script>
+  // 하위 정보 토글 함수
+  function toggleSubInfo(box) {
+    const subInfo = box.querySelector('.sub-info');
+    if (!subInfo) return;
+
+    // 다른 박스 열려있으면 닫기 (선택사항 - 필요 없으면 삭제 가능)
+    document.querySelectorAll('.sub-info').forEach(div => {
+      if (div !== subInfo) div.style.display = 'none';
+    });
+
+    if (subInfo.style.display === 'block') {
+      subInfo.style.display = 'none';
+    } else {
+      subInfo.style.display = 'block';
+      // 열리면 스크롤 내려서 내용이 보이도록 (optional)
+      box.scrollIntoView({behavior: 'smooth', block: 'start'});
+    }
+  }
+
+  // 슬라이더 기능
+  let currentIndex = 0;
+  const slider = document.getElementById('videoSlider');
+  const pageCount = slider.children.length;
+  const pageNumber = document.getElementById('pageNumber');
+
+  function updateSlider() {
+    slider.style.transform = `translateX(-${1000 * currentIndex}px)`;
+    pageNumber.textContent = `${currentIndex + 1} / ${pageCount}`;
+  }
+
+  function prevSlide() {
+    if (currentIndex > 0) {
+      currentIndex--;
+      updateSlider();
+    }
+  }
+
+  function nextSlide() {
+    if (currentIndex < pageCount - 1) {
+      currentIndex++;
+      updateSlider();
+    }
+  }
+
+  updateSlider();
+</script>
+
+</body>
+</html>
