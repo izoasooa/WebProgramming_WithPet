@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>응급처치</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="logo">로고</div>
+    <div class="nav-icons">
+      <span>강아지</span>
+      <span>고양이</span>
+      <span>24시 동물병원</span>
+    </div>
+  </header>
+
+  <nav class="menu">
+    <span>지식정보</span>
+    <span class="active">응급처치</span>
+    <span>행동패턴</span>
+  </nav>
+
+  <main class="container">
+    <section class="box" onclick="toggleContent(this)">
+      <div class="box-inner">
+        <div class="text-content">
+          <h3>반려견이 숨을 안쉴 때</h3>
+          <ul class="content">
+            <li>반려견 인공호흡</li>
+            <li>반려견 심폐소생술</li>
+          </ul>
+        </div>
+        <img class="image" src="http://newsimg.hankookilbo.com/2017/11/22/201711221434387312_1.jpg" alt="응급처치 이미지">
+      </div>
+    </section>
+
+    <section class="box" onclick="toggleContent(this)">
+      <div class="box-inner">
+        <div class="text-content">
+          <h3>골절 · 타박 · 타관 · 상처</h3>
+          <ul class="content">
+            <li>골절</li>
+            <li>타박</li>
+            <li>타관</li>
+            <li>상처</li>
+          </ul>
+        </div>
+        <img class="image" src="https://blog.malcang.com/wp-content/uploads/2024/06/1-47.png" alt="상처 이미지">
+      </div>
+    </section>
+
+    <section class="box" onclick="toggleContent(this)">
+      <div class="box-inner">
+        <div class="text-content">
+          <h3>이물질이 걸렸을 때</h3>
+          <ul class="content">
+            <li>하임리히 방법</li>
+          </ul>
+        </div>
+        <img class="image" src="https://www.sjpost.co.kr/news/photo/201908/50242_40477_5450.jpg" alt="이물질 제거 이미지">
+      </div>
+    </section>
+
+    <section class="video-gallery">
+      <div class="video-slide">
+        <div class="video"><iframe src="https://www.youtube.com/embed/92EByzD_Dt4" allowfullscreen></iframe></div>
+        <div class="video"><iframe src="https://www.youtube.com/embed/R7gB825qZzM" allowfullscreen></iframe></div>
+        <div class="video"><iframe src="https://www.youtube.com/embed/kJOQuXUhsdw" allowfullscreen></iframe></div>
+      </div>
+      <div class="video-slide hidden">
+        <div class="video"><iframe src="https://www.youtube.com/embed/emsYg5ZVOR0" allowfullscreen></iframe></div>
+        <div class="video"><iframe src="https://www.youtube.com/embed/on8dJGMPMM0" allowfullscreen></iframe></div>
+        <div class="video"><iframe src="https://www.youtube.com/embed/4f1QGu_7utw" allowfullscreen></iframe></div>
+      </div>
+      <div class="video-slide hidden left-align">
+        <div class="video"><iframe src="https://www.youtube.com/embed/O0PjNgvgGGc" allowfullscreen></iframe></div>
+        <div class="video"><iframe src="https://www.youtube.com/embed/o9kmmzaXGjc" allowfullscreen></iframe></div>
+      </div>
+      <div class="video-controls">
+        <button onclick="prevSlide()">〈</button>
+        <span class="page-indicator">1 / 3</span>
+        <button onclick="nextSlide()">〉</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
