@@ -67,7 +67,7 @@ body {
 .content {
   display: none;
   padding-left: 20px;
-  list-style: disc;
+  font-size: 0.92rem;
 }
 
 .image {
