@@ -1,0 +1,2725 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.978,
+          37.5665
+        ]
+      },
+      "properties": {
+        "region": null,
+        "name": "24일산우리동물병원",
+        "address": "주소 없음",
+        "phone": "031-913-5550"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.988,
+          37.576499999999996
+        ]
+      },
+      "properties": {
+        "region": null,
+        "name": "고덕24시 동물병원",
+        "address": "주소 없음",
+        "phone": "02-6227-8275"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.99799999999999,
+          37.5865
+        ]
+      },
+      "properties": {
+        "region": "gangwon",
+        "name": "24시보듬동물병원",
+        "address": "강원특별자치도 강릉시 임당동",
+        "phone": "033-655-7975"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.008,
+          37.5965
+        ]
+      },
+      "properties": {
+        "region": "gangwon",
+        "name": "원주24시스카이동물메디컬센터",
+        "address": "강원특별자치도 원주시 단구동",
+        "phone": "033-813-9975"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.018,
+          37.6065
+        ]
+      },
+      "properties": {
+        "region": "gyeonggi",
+        "name": "24시 라인동물의료센터",
+        "address": "경기도 고양시 덕양구 삼송동",
+        "phone": "02-381-2475"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.02799999999999,
+          37.616499999999995
+        ]
+      },
+      "properties": {
+        "region": "gyeonggi",
+        "name": "24시 나음동물의료센터",
+        "address": "경기도 고양시 일산동구 장항동",
+        "phone": "031-906-7975"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.038,
+          37.6265
+        ]
+      },
+      "properties": {
+        "region": "gyeonggi",
+        "name": "광명 24 아이디동물의료센터",
+        "address": "경기도 광명시 철산동",
+        "phone": "02-6952-2475"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.04799999999999,
+          37.6365
+        ]
+      },
+      "properties": {
+        "region": "gyeonggi",
+        "name": "24시 모두의동물병원",
+        "address": "경기도 광명시 하안동",
+        "phone": "02-6951-2475"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.05799999999999,
+          37.646499999999996
+        ]
+      },
+      "properties": {
+        "region": "gyeonggi",
+        "name": "그랜드24시동물병원",
+        "address": "경기도 광주시 경안동",
+        "phone": "766-1475"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.068,
+          37.6565
+        ]
+      },
+      "properties": {
+        "region": "gyeonggi",
+        "name": "동현24시동물병원",
+        "address": "경기도 광주시 송정동",
+        "phone": "7687599"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.07799999999999,
+          37.6665
+        ]
+      },
+      "properties": {
+        "region": "gyeonggi",
+        "name": "24시 모란동물 메디컬센터",
+        "address": "경기도 광주시 쌍령동",
+        "phone": "***********"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.088,
+          37.6765
+        ]
+      },
+      "properties": {
+        "region": "gyeonggi",
+        "name": "24시 더케어 동물의료센터",
+        "address": "경기도 구리시 수택동",
+        "phone": "031-516-8585"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.098,
+          37.686499999999995
+        ]
+      },
+      "properties": {
+        "region": "gyeonggi",
+        "name": "김포24시힐동물의료센터",
+        "address": "경기도 김포시 장기동",
+        "phone": "***********"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.10799999999999,
+          37.6965
+        ]
+      },
+      "properties": {
+        "region": "gyeonggi",
+        "name": "24시 위드힐동물메디컬센터",
+        "address": "경기도 남양주시 별내동",
+        "phone": "031-523-3256"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.118,
+          37.7065
+        ]
+      },
+      "properties": {
+        "region": "gyeonggi",
+        "name": "24시 공감365동물의료센터",
+        "address": "경기도 남양주시 진접읍 금곡리",
+        "phone": "031-575-8275"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.128,
+          37.716499999999996
+        ]
+      },
+      "properties": {
+        "region": "gyeonggi",
+        "name": "24시 위너스동물의료센터",
+        "address": "경기도 남양주시 호평동",
+        "phone": "031-511-7582"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.13799999999999,
+          37.726499999999994
+        ]
+      },
+      "properties": {
+        "region": "gyeonggi",
+        "name": "24시이스턴동물의료센터",
+        "address": "경기도 남양주시 호평동",
+        "phone": "***********"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.148,
+          37.7365
+        ]
+      },
+      "properties": {
+        "region": "gyeonggi",
+        "name": "24시 아이동물메디컬센터",
+        "address": "경기도 부천시 오정구 원종동",
+        "phone": "677-5262"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.158,
+          37.7465
+        ]
+      },
+      "properties": {
+        "region": "gyeonggi",
+        "name": "24시 이지동물의료센터",
+        "address": "경기도 부천시 원미구 역곡동",
+        "phone": "032-348-7975"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.16799999999999,
+          37.756499999999996
+        ]
+      },
+      "properties": {
+        "region": "gyeonggi",
+        "name": "24시 웰니스 동물 의료센터",
+        "address": "경기도 부천시 원미구 중동",
+        "phone": "0322017575"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.178,
+          37.7665
+        ]
+      },
+      "properties": {
+        "region": "gyeonggi",
+        "name": "24시해든동물메디컬센터",
+        "address": "경기도 부천시 원미구 중동",
+        "phone": "032-715-7579"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.18799999999999,
+          37.7765
+        ]
+      },
+      "properties": {
+        "region": "gyeonggi",
+        "name": "부천24시SKY동물메디컬센터",
+        "address": "경기도 부천시 원미구 중동",
+        "phone": "032-323-7579"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.198,
+          37.7865
+        ]
+      },
+      "properties": {
+        "region": "gyeonggi",
+        "name": "24시분당리더스동물의료원",
+        "address": "경기도 성남시 분당구 구미동",
+        "phone": "031-711-8275"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.208,
+          37.796499999999995
+        ]
+      },
+      "properties": {
+        "region": "gyeonggi",
+        "name": "분당24시동물의료센터",
+        "address": "경기도 성남시 분당구 야탑동",
+        "phone": "605-5119"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.21799999999999,
+          37.8065
+        ]
+      },
+      "properties": {
+        "region": "gyeonggi",
+        "name": "24시 폴 동물병원",
+        "address": "경기도 성남시 분당구 정자동",
+        "phone": "717-7558"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.228,
+          37.8165
+        ]
+      },
+      "properties": {
+        "region": "gyeonggi",
+        "name": "24시 숨 동물병원",
+        "address": "경기도 수원시 권선구 권선동",
+        "phone": "031-548-2475"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.238,
+          37.826499999999996
+        ]
+      },
+      "properties": {
+        "region": "gyeonggi",
+        "name": "수원24시 바른동물의료센터",
+        "address": "경기도 수원시 권선구 금곡동",
+        "phone": "031-291-2475"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.24799999999999,
+          37.8365
+        ]
+      },
+      "properties": {
+        "region": "gyeonggi",
+        "name": "권앤정 24시수원동물메디컬센터",
+        "address": "경기도 수원시 영통구 영통동",
+        "phone": "0312020119"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.258,
+          37.8465
+        ]
+      },
+      "properties": {
+        "region": "gyeonggi",
+        "name": "24시 당신의 동물의료센터",
+        "address": "경기도 수원시 장안구 천천동",
+        "phone": "031-268-6575"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.268,
+          37.8565
+        ]
+      },
+      "properties": {
+        "region": "gyeonggi",
+        "name": "24시배곧스마트동물의료센터",
+        "address": "경기도 시흥시 배곧동",
+        "phone": "031-432-1224"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.27799999999999,
+          37.866499999999995
+        ]
+      },
+      "properties": {
+        "region": "gyeonggi",
+        "name": "24시 위드유 동물의료센터",
+        "address": "경기도 시흥시 은행동",
+        "phone": "***********"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.288,
+          37.8765
+        ]
+      },
+      "properties": {
+        "region": "gyeonggi",
+        "name": "24시위드동물병원(정왕동동물의료센터)",
+        "address": "경기도 시흥시 정왕동",
+        "phone": "031-488-8075"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.29799999999999,
+          37.8865
+        ]
+      },
+      "properties": {
+        "region": "gyeonggi",
+        "name": "시흥24시센트럴동물의료센터",
+        "address": "경기도 시흥시 정왕동",
+        "phone": "031-432-2475"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.30799999999999,
+          37.896499999999996
+        ]
+      },
+      "properties": {
+        "region": "gyeonggi",
+        "name": "24시 온누리동물메디컬센터",
+        "address": "경기도 안산시 단원구 고잔동",
+        "phone": "487-7500"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.318,
+          37.9065
+        ]
+      },
+      "properties": {
+        "region": "gyeonggi",
+        "name": "24시 아프리카동물병원",
+        "address": "경기도 안산시 단원구 초지동",
+        "phone": "***********"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.32799999999999,
+          37.9165
+        ]
+      },
+      "properties": {
+        "region": "gyeonggi",
+        "name": "24시 이오동물병원",
+        "address": "경기도 안양시 동안구 비산동",
+        "phone": "031-360-2575"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.338,
+          37.9265
+        ]
+      },
+      "properties": {
+        "region": "gyeonggi",
+        "name": "24시마음든든동물병원",
+        "address": "경기도 안양시 만안구 석수동",
+        "phone": "031-474-2475"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.348,
+          37.936499999999995
+        ]
+      },
+      "properties": {
+        "region": "gyeonggi",
+        "name": "양주24시해든동물의료센터",
+        "address": "경기도 양주시 광사동",
+        "phone": "031-848-9111"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.35799999999999,
+          37.9465
+        ]
+      },
+      "properties": {
+        "region": "gyeonggi",
+        "name": "24시 양주 힐 동물의료센터",
+        "address": "경기도 양주시 옥정동",
+        "phone": "031-859-8275"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.368,
+          37.9565
+        ]
+      },
+      "properties": {
+        "region": "gyeonggi",
+        "name": "24시하나린동물의료센터",
+        "address": "경기도 오산시 금암동",
+        "phone": "070-7537-3724"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.378,
+          37.966499999999996
+        ]
+      },
+      "properties": {
+        "region": "gyeonggi",
+        "name": "24시동물병원",
+        "address": "경기도 용인시 기흥구 구갈동",
+        "phone": "281-7585"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.38799999999999,
+          37.976499999999994
+        ]
+      },
+      "properties": {
+        "region": "gyeonggi",
+        "name": "24시 쓰담쓰담 동물메디컬 센터",
+        "address": "경기도 용인시 기흥구 신갈동",
+        "phone": "***********"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.398,
+          37.9865
+        ]
+      },
+      "properties": {
+        "region": "gyeonggi",
+        "name": "24시 블레스동물메디컬센터",
+        "address": "경기도 용인시 기흥구 중동",
+        "phone": "031-546-0942"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.408,
+          37.9965
+        ]
+      },
+      "properties": {
+        "region": "gyeonggi",
+        "name": "24시 사람앤동물메디컬센터",
+        "address": "경기도 용인시 수지구 성복동",
+        "phone": "031-262-0306"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.41799999999999,
+          38.006499999999996
+        ]
+      },
+      "properties": {
+        "region": "gyeonggi",
+        "name": "24시 서울YES동물병원",
+        "address": "경기도 용인시 수지구 죽전동",
+        "phone": "***********"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.428,
+          38.0165
+        ]
+      },
+      "properties": {
+        "region": "gyeonggi",
+        "name": "용인죽전 24시 스카이동물메디컬센터",
+        "address": "경기도 용인시 수지구 죽전동",
+        "phone": "031-546-5975"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.43799999999999,
+          38.0265
+        ]
+      },
+      "properties": {
+        "region": "gyeonggi",
+        "name": "용인24시 아이온동물메디컬센터",
+        "address": "경기도 용인시 처인구 역북동",
+        "phone": "031-334-6125"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.448,
+          38.0365
+        ]
+      },
+      "properties": {
+        "region": "gyeonggi",
+        "name": "24시 해든동물의료센터 민락점",
+        "address": "경기도 의정부시 민락동",
+        "phone": "031-851-7007"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.458,
+          38.046499999999995
+        ]
+      },
+      "properties": {
+        "region": "gyeonggi",
+        "name": "24시 해든동물의료센터 의정부점",
+        "address": "경기도 의정부시 의정부동",
+        "phone": "031-951-9499"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.46799999999999,
+          38.0565
+        ]
+      },
+      "properties": {
+        "region": "gyeonggi",
+        "name": "의정부 24시 IU 동물병원",
+        "address": "경기도 의정부시 의정부동",
+        "phone": "031-871-7588"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.478,
+          38.0665
+        ]
+      },
+      "properties": {
+        "region": "gyeonggi",
+        "name": "24시스마일동물의료센터동물병원",
+        "address": "경기도 이천시 진리동",
+        "phone": "031-633-7582"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.488,
+          38.076499999999996
+        ]
+      },
+      "properties": {
+        "region": "gyeonggi",
+        "name": "24시 마이동물의료센터",
+        "address": "경기도 파주시 동패동",
+        "phone": "031-945-5000"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.49799999999999,
+          38.0865
+        ]
+      },
+      "properties": {
+        "region": "gyeonggi",
+        "name": "운정24시동물의료센터",
+        "address": "경기도 파주시 동패동",
+        "phone": "***********"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.508,
+          38.0965
+        ]
+      },
+      "properties": {
+        "region": "gyeonggi",
+        "name": "파주24시동물병원",
+        "address": "경기도 파주시 목동동",
+        "phone": "***********"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.518,
+          38.1065
+        ]
+      },
+      "properties": {
+        "region": "gyeonggi",
+        "name": "24시 고덕동물의료센터",
+        "address": "경기도 평택시 고덕동",
+        "phone": "1833-3339"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.52799999999999,
+          38.116499999999995
+        ]
+      },
+      "properties": {
+        "region": "gyeonggi",
+        "name": "24시 라움동물의료센터",
+        "address": "경기도 평택시 비전동",
+        "phone": "031-692-5022"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.538,
+          38.1265
+        ]
+      },
+      "properties": {
+        "region": "gyeonggi",
+        "name": "24시 와이즈 동물메디컬센터",
+        "address": "경기도 하남시 덕풍동",
+        "phone": "031-791-8253"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.54799999999999,
+          38.1365
+        ]
+      },
+      "properties": {
+        "region": "gyeonggi",
+        "name": "24시동탄시티동물의료센터",
+        "address": "경기도 화성시 반송동",
+        "phone": "031-8003-7533"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.55799999999999,
+          38.146499999999996
+        ]
+      },
+      "properties": {
+        "region": "gyeonggi",
+        "name": "24시동탄윌동물의료센터",
+        "address": "경기도 화성시 반송동",
+        "phone": "031-831-3531"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.568,
+          38.1565
+        ]
+      },
+      "properties": {
+        "region": "gyeonggi",
+        "name": "동탄24시동물의료센터",
+        "address": "경기도 화성시 반송동",
+        "phone": "031-613-7579"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.57799999999999,
+          38.1665
+        ]
+      },
+      "properties": {
+        "region": "gyeonggi",
+        "name": "24시 봉담동물의료센터",
+        "address": "경기도 화성시 봉담읍 상리",
+        "phone": "031-227-3175"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.588,
+          38.1765
+        ]
+      },
+      "properties": {
+        "region": "gyeonggi",
+        "name": "24시핸즈동물의료센터",
+        "address": "경기도 화성시 오산동",
+        "phone": "031-8677-2115"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.598,
+          38.186499999999995
+        ]
+      },
+      "properties": {
+        "region": "gyeongnam",
+        "name": "24시 더나은 동물메디컬 센터",
+        "address": "경상남도 거제시 고현동",
+        "phone": "***********"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.60799999999999,
+          38.1965
+        ]
+      },
+      "properties": {
+        "region": "gyeongnam",
+        "name": "24시 창원2차동물의료원",
+        "address": "경상남도 창원시 의창구 명서동",
+        "phone": "055-266-7975"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.618,
+          38.2065
+        ]
+      },
+      "properties": {
+        "region": "gyeongnam",
+        "name": "24시 팔용feel동물병원",
+        "address": "경상남도 창원시 의창구 팔용동",
+        "phone": "055-255-1275"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.628,
+          38.216499999999996
+        ]
+      },
+      "properties": {
+        "region": "gyeongbuk",
+        "name": "24시 포항 이음동물의료센터",
+        "address": "경상북도 포항시 남구 효자동",
+        "phone": "054-612-2475"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.63799999999999,
+          38.226499999999994
+        ]
+      },
+      "properties": {
+        "region": "gwangju",
+        "name": "24시 바덴동물메디컬",
+        "address": "광주광역시 광산구 월계동",
+        "phone": "0627102475"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.648,
+          38.2365
+        ]
+      },
+      "properties": {
+        "region": "gwangju",
+        "name": "24시김승현외과동물메디컬센터",
+        "address": "광주광역시 남구 월산동",
+        "phone": "062-710-7119"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.658,
+          38.2465
+        ]
+      },
+      "properties": {
+        "region": "gwangju",
+        "name": "진월24동물병원",
+        "address": "광주광역시 남구 진월동",
+        "phone": "***********"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.66799999999999,
+          38.256499999999996
+        ]
+      },
+      "properties": {
+        "region": "gwangju",
+        "name": "24시노아동물메디컬센터",
+        "address": "광주광역시 동구 대인동",
+        "phone": "062-222-0075"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.678,
+          38.2665
+        ]
+      },
+      "properties": {
+        "region": "gwangju",
+        "name": "24시 언제나 동물병원",
+        "address": "광주광역시 북구 매곡동",
+        "phone": "062-571-0011"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.68799999999999,
+          38.2765
+        ]
+      },
+      "properties": {
+        "region": "gwangju",
+        "name": "24시 블루밍 동물병원",
+        "address": "광주광역시 북구 운암동",
+        "phone": "062-416-7975"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.698,
+          38.2865
+        ]
+      },
+      "properties": {
+        "region": "gwangju",
+        "name": "광주24시스카이동물메디컬센터",
+        "address": "광주광역시 서구 쌍촌동",
+        "phone": "062-719-4275"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.708,
+          38.296499999999995
+        ]
+      },
+      "properties": {
+        "region": "daegu",
+        "name": "대구24시라이프동물의료센터",
+        "address": "대구광역시 달서구 감삼동",
+        "phone": "053-567-2475"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.71799999999999,
+          38.3065
+        ]
+      },
+      "properties": {
+        "region": "daegu",
+        "name": "대구24시바른동물의료센터",
+        "address": "대구광역시 달서구 감삼동",
+        "phone": "053-571-0075"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.728,
+          38.3165
+        ]
+      },
+      "properties": {
+        "region": "daegu",
+        "name": "24시프라임동물병원",
+        "address": "대구광역시 달서구 대곡동",
+        "phone": "053-631-9966"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.738,
+          38.326499999999996
+        ]
+      },
+      "properties": {
+        "region": "daegu",
+        "name": "이스턴24시동물병원",
+        "address": "대구광역시 동구 신기동",
+        "phone": "***********"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.74799999999999,
+          38.3365
+        ]
+      },
+      "properties": {
+        "region": "daegu",
+        "name": "24시 파티마동물의료센터",
+        "address": "대구광역시 동구 신암동",
+        "phone": "053-710-2475"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.758,
+          38.3465
+        ]
+      },
+      "properties": {
+        "region": "daegu",
+        "name": "24시 에피소드 동물 메디컬 센터",
+        "address": "대구광역시 동구 신천동",
+        "phone": "050714748057"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.768,
+          38.3565
+        ]
+      },
+      "properties": {
+        "region": "daegu",
+        "name": "24시알파동물메디컬센터",
+        "address": "대구광역시 서구 내당동",
+        "phone": "0535727585"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.77799999999999,
+          38.366499999999995
+        ]
+      },
+      "properties": {
+        "region": "daegu",
+        "name": "24시 케어동물의료센터",
+        "address": "대구광역시 수성구 만촌동",
+        "phone": "053-716-2475"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.788,
+          38.3765
+        ]
+      },
+      "properties": {
+        "region": "daegu",
+        "name": "본동물메디컬센터 24시수성점",
+        "address": "대구광역시 수성구 만촌동",
+        "phone": "053-634-7582"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.79799999999999,
+          38.3865
+        ]
+      },
+      "properties": {
+        "region": "daegu",
+        "name": "대구24시 야간응급연합동물병원",
+        "address": "대구광역시 수성구 지산동",
+        "phone": "053-767-1190"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.80799999999999,
+          38.396499999999996
+        ]
+      },
+      "properties": {
+        "region": "daegu",
+        "name": "24시 황금동물의료센터",
+        "address": "대구광역시 수성구 황금동",
+        "phone": "053-247-0124"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.818,
+          38.4065
+        ]
+      },
+      "properties": {
+        "region": "daejeon",
+        "name": "24시도안동물메디컬센터",
+        "address": "대전광역시 서구 도안동",
+        "phone": "042-710-1502"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.82799999999999,
+          38.4165
+        ]
+      },
+      "properties": {
+        "region": "daejeon",
+        "name": "마크로24시 동물병원",
+        "address": "대전광역시 서구 월평동",
+        "phone": "486-3375"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.838,
+          38.4265
+        ]
+      },
+      "properties": {
+        "region": "daejeon",
+        "name": "24아프리카동물메디컬센터",
+        "address": "대전광역시 서구 탄방동",
+        "phone": "042)486-7581"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.848,
+          38.436499999999995
+        ]
+      },
+      "properties": {
+        "region": "daejeon",
+        "name": "24시 성심동물메디컬센터",
+        "address": "대전광역시 유성구 봉명동",
+        "phone": "0427197566"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.85799999999999,
+          38.4465
+        ]
+      },
+      "properties": {
+        "region": "daejeon",
+        "name": "대전24시 센트럴동물병원",
+        "address": "대전광역시 중구 용두동",
+        "phone": "042-719-7779"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.868,
+          38.4565
+        ]
+      },
+      "properties": {
+        "region": "busan",
+        "name": "24시 리본동물영상센터",
+        "address": "부산광역시 동래구 명륜동",
+        "phone": "051-711-0006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.878,
+          38.466499999999996
+        ]
+      },
+      "properties": {
+        "region": "busan",
+        "name": "24시 리본동물의료센터",
+        "address": "부산광역시 동래구 명륜동",
+        "phone": "051-711-0006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.88799999999999,
+          38.476499999999994
+        ]
+      },
+      "properties": {
+        "region": "busan",
+        "name": "부산 24시 더휴동물의료센터",
+        "address": "부산광역시 동래구 온천동",
+        "phone": "051-513-6060"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.898,
+          38.4865
+        ]
+      },
+      "properties": {
+        "region": "busan",
+        "name": "24시 온동물의료센터",
+        "address": "부산광역시 부산진구 전포동",
+        "phone": "051-819-6061"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.908,
+          38.4965
+        ]
+      },
+      "properties": {
+        "region": "busan",
+        "name": "부산 24시 동행동물의료센터",
+        "address": "부산광역시 북구 덕천동",
+        "phone": "051-908-7575"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.91799999999999,
+          38.506499999999996
+        ]
+      },
+      "properties": {
+        "region": "busan",
+        "name": "만덕24시동물병원",
+        "address": "부산광역시 북구 만덕동",
+        "phone": "0513380075"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.928,
+          38.5165
+        ]
+      },
+      "properties": {
+        "region": "busan",
+        "name": "뉴로동물의료센터24시",
+        "address": "부산광역시 연제구 연산동",
+        "phone": "051-711-8253"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.93799999999999,
+          38.5265
+        ]
+      },
+      "properties": {
+        "region": "busan",
+        "name": "부산24시 연산동물의료센터",
+        "address": "부산광역시 연제구 연산동",
+        "phone": "051-791-0175"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.948,
+          38.5365
+        ]
+      },
+      "properties": {
+        "region": "busan",
+        "name": "해운대 24시 동물의료원",
+        "address": "부산광역시 해운대구 좌동",
+        "phone": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.958,
+          38.546499999999995
+        ]
+      },
+      "properties": {
+        "region": "seoul",
+        "name": "와이즈24시 동물병원",
+        "address": "서울특별시 강남구 논현동",
+        "phone": "3446-8253"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.96799999999999,
+          38.5565
+        ]
+      },
+      "properties": {
+        "region": "seoul",
+        "name": "24시 청담우리 동물병원",
+        "address": "서울특별시 강남구 삼성동",
+        "phone": "02-541-7515"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.978,
+          38.5665
+        ]
+      },
+      "properties": {
+        "region": "seoul",
+        "name": "24시 스마트동물병원(신사본원)",
+        "address": "서울특별시 강남구 신사동",
+        "phone": "02-549-0275"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.988,
+          38.576499999999996
+        ]
+      },
+      "properties": {
+        "region": "seoul",
+        "name": "24시OK동물병원",
+        "address": "서울특별시 강남구 역삼동",
+        "phone": "02-569-7582"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.99799999999999,
+          38.5865
+        ]
+      },
+      "properties": {
+        "region": "seoul",
+        "name": "24시SNC동물메디컬센터",
+        "address": "서울특별시 강남구 역삼동",
+        "phone": "02-562-7582"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.00799999999998,
+          38.5965
+        ]
+      },
+      "properties": {
+        "region": "seoul",
+        "name": "아이윌24시동물병원",
+        "address": "서울특별시 강남구 청담동",
+        "phone": "02-6925-7021"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.018,
+          38.6065
+        ]
+      },
+      "properties": {
+        "region": "seoul",
+        "name": "24시 로얄동물메디컬센터 강동",
+        "address": "서울특별시 강동구 길동",
+        "phone": "02-457-0075"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.028,
+          38.616499999999995
+        ]
+      },
+      "properties": {
+        "region": "seoul",
+        "name": "열린24시동물병원",
+        "address": "서울특별시 강동구 길동",
+        "phone": "02-487-7575"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.03799999999998,
+          38.6265
+        ]
+      },
+      "properties": {
+        "region": "seoul",
+        "name": "강동24시 SKY 동물의료센터",
+        "address": "서울특별시 강동구 성내동",
+        "phone": "02-472-7579"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.048,
+          38.6365
+        ]
+      },
+      "properties": {
+        "region": "seoul",
+        "name": "24시루시드동물메디컬센터",
+        "address": "서울특별시 강북구 미아동",
+        "phone": "02-941-7900"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.058,
+          38.646499999999996
+        ]
+      },
+      "properties": {
+        "region": "seoul",
+        "name": "강북24시 N동물의료센터",
+        "address": "서울특별시 강북구 미아동",
+        "phone": "02-984-0075"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.06799999999998,
+          38.6565
+        ]
+      },
+      "properties": {
+        "region": "seoul",
+        "name": "24시 수유 바른펫 동물의료센터",
+        "address": "서울특별시 강북구 수유동",
+        "phone": "02-903-7582"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.078,
+          38.6665
+        ]
+      },
+      "properties": {
+        "region": "seoul",
+        "name": "24시 안박동물병원",
+        "address": "서울특별시 강서구 등촌동",
+        "phone": "***********"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.088,
+          38.6765
+        ]
+      },
+      "properties": {
+        "region": "seoul",
+        "name": "24시아프리카동물메디컬센터",
+        "address": "서울특별시 강서구 등촌동",
+        "phone": "3665-7975"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.09799999999998,
+          38.686499999999995
+        ]
+      },
+      "properties": {
+        "region": "seoul",
+        "name": "24시 강서 젠틀리동물의료센터",
+        "address": "서울특별시 강서구 마곡동",
+        "phone": "02-2662-8111"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.108,
+          38.6965
+        ]
+      },
+      "properties": {
+        "region": "seoul",
+        "name": "24시연동물의료센터",
+        "address": "서울특별시 강서구 화곡동",
+        "phone": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.118,
+          38.7065
+        ]
+      },
+      "properties": {
+        "region": "seoul",
+        "name": "24시 굿케어동물의료센터",
+        "address": "서울특별시 관악구 봉천동",
+        "phone": "02-6956-2475"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.128,
+          38.716499999999996
+        ]
+      },
+      "properties": {
+        "region": "seoul",
+        "name": "광진24시필동물병원",
+        "address": "서울특별시 광진구 구의동",
+        "phone": "02-446-8175"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.138,
+          38.726499999999994
+        ]
+      },
+      "properties": {
+        "region": "seoul",
+        "name": "24시 명동물메디컬센터",
+        "address": "서울특별시 구로구 개봉동",
+        "phone": "2619-5102"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.148,
+          38.7365
+        ]
+      },
+      "properties": {
+        "region": "seoul",
+        "name": "24시 지구촌 동물메디컬 센터",
+        "address": "서울특별시 구로구 구로동",
+        "phone": "869-7582"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.158,
+          38.7465
+        ]
+      },
+      "properties": {
+        "region": "seoul",
+        "name": "24시 신도림S동물의료센터",
+        "address": "서울특별시 구로구 신도림동",
+        "phone": "02-6949-3575"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.168,
+          38.756499999999996
+        ]
+      },
+      "properties": {
+        "region": "seoul",
+        "name": "24시 글로리 동물병원",
+        "address": "서울특별시 금천구 독산동",
+        "phone": "02-855-8575"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.178,
+          38.7665
+        ]
+      },
+      "properties": {
+        "region": "seoul",
+        "name": "금천 24시 K동물의료센터",
+        "address": "서울특별시 금천구 시흥동",
+        "phone": "02-808-2475"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.188,
+          38.7765
+        ]
+      },
+      "properties": {
+        "region": "seoul",
+        "name": "24시 우리 동물병원",
+        "address": "서울특별시 노원구 상계동",
+        "phone": "02-932-8575"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.198,
+          38.7865
+        ]
+      },
+      "properties": {
+        "region": "seoul",
+        "name": "24시 딜라이트 동물의료센터",
+        "address": "서울특별시 도봉구 창동",
+        "phone": "02-904-1004"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.208,
+          38.796499999999995
+        ]
+      },
+      "properties": {
+        "region": "seoul",
+        "name": "24시 동대문 루시드 동물메디컬센터",
+        "address": "서울특별시 동대문구 답십리동",
+        "phone": "0262170202"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.218,
+          38.8065
+        ]
+      },
+      "properties": {
+        "region": "seoul",
+        "name": "굿파파 24시 반려동물건강검진센터",
+        "address": "서울특별시 동작구 사당동",
+        "phone": "02-593-8275"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.228,
+          38.8165
+        ]
+      },
+      "properties": {
+        "region": "seoul",
+        "name": "24시 품 동물의료센터",
+        "address": "서울특별시 동작구 상도1동",
+        "phone": "02-812-7585"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.238,
+          38.826499999999996
+        ]
+      },
+      "properties": {
+        "region": "seoul",
+        "name": "24시 산들산들 동물병원",
+        "address": "서울특별시 마포구 아현동",
+        "phone": "02-393-3588"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.248,
+          38.8365
+        ]
+      },
+      "properties": {
+        "region": "seoul",
+        "name": "홍제24시모아동물의료센터",
+        "address": "서울특별시 서대문구 홍제동",
+        "phone": "02-2138-2030"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.25799999999998,
+          38.8465
+        ]
+      },
+      "properties": {
+        "region": "seoul",
+        "name": "24시예스동물병원",
+        "address": "서울특별시 서초구 반포동",
+        "phone": "534-3475"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.268,
+          38.8565
+        ]
+      },
+      "properties": {
+        "region": "seoul",
+        "name": "24시 서초바른동물병원",
+        "address": "서울특별시 서초구 서초동",
+        "phone": "02-588-7511"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.278,
+          38.866499999999995
+        ]
+      },
+      "properties": {
+        "region": "seoul",
+        "name": "24시센트럴동물메디컬센터",
+        "address": "서울특별시 성동구 행당동",
+        "phone": "02-3395-7975"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.28799999999998,
+          38.8765
+        ]
+      },
+      "properties": {
+        "region": "seoul",
+        "name": "24시 애니동물병원",
+        "address": "서울특별시 성북구 보문동5가",
+        "phone": "926-8275"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.298,
+          38.8865
+        ]
+      },
+      "properties": {
+        "region": "seoul",
+        "name": "24시 스탠다드 동물의료센터",
+        "address": "서울특별시 송파구 거여동",
+        "phone": "02-448-6400"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.308,
+          38.896499999999996
+        ]
+      },
+      "properties": {
+        "region": "seoul",
+        "name": "24시잠실ON동물의료센터",
+        "address": "서울특별시 송파구 잠실동",
+        "phone": "02-418-0724"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.31799999999998,
+          38.9065
+        ]
+      },
+      "properties": {
+        "region": "seoul",
+        "name": "24시 로운동물의료센터",
+        "address": "서울특별시 양천구 목동",
+        "phone": "02)6953-7576"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.328,
+          38.9165
+        ]
+      },
+      "properties": {
+        "region": "seoul",
+        "name": "24시월드펫동물메디컬센터",
+        "address": "서울특별시 양천구 신월동",
+        "phone": "0226987582"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.338,
+          38.9265
+        ]
+      },
+      "properties": {
+        "region": "seoul",
+        "name": "24시 서울 탑 동물병원",
+        "address": "서울특별시 양천구 신정동",
+        "phone": "02-2601-8875"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.34799999999998,
+          38.936499999999995
+        ]
+      },
+      "properties": {
+        "region": "seoul",
+        "name": "24시 수 동물메디컬센터",
+        "address": "서울특별시 영등포구 양평동1가",
+        "phone": "02-2676-7582"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.358,
+          38.9465
+        ]
+      },
+      "properties": {
+        "region": "seoul",
+        "name": "24시 시유동물메디컬센터",
+        "address": "서울특별시 용산구 이촌동",
+        "phone": "02-793-0075"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.368,
+          38.9565
+        ]
+      },
+      "properties": {
+        "region": "seoul",
+        "name": "24시예담동물의료센터",
+        "address": "서울특별시 은평구 역촌동",
+        "phone": "0269527519"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.378,
+          38.966499999999996
+        ]
+      },
+      "properties": {
+        "region": "seoul",
+        "name": "24시스마트동물메디컬센터",
+        "address": "서울특별시 은평구 응암동",
+        "phone": "02-387-7582"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.388,
+          38.976499999999994
+        ]
+      },
+      "properties": {
+        "region": "seoul",
+        "name": "한수24시동물병원",
+        "address": "서울특별시 은평구 증산동",
+        "phone": "306-8575"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.398,
+          38.9865
+        ]
+      },
+      "properties": {
+        "region": "incheon",
+        "name": "인천24시유앤미동물병원",
+        "address": "인천광역시 남동구 간석동",
+        "phone": "433-0755"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.408,
+          38.9965
+        ]
+      },
+      "properties": {
+        "region": "incheon",
+        "name": "인천 24시 스카이동물메디컬센터",
+        "address": "인천광역시 남동구 구월동",
+        "phone": "715-7959"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.418,
+          39.006499999999996
+        ]
+      },
+      "properties": {
+        "region": "incheon",
+        "name": "24시 인천동물병원 치료해주오",
+        "address": "인천광역시 남동구 논현동",
+        "phone": "432-1432"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.428,
+          39.0165
+        ]
+      },
+      "properties": {
+        "region": "incheon",
+        "name": "루이스24시동물병원",
+        "address": "인천광역시 남동구 만수동",
+        "phone": "710-1237"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.438,
+          39.0265
+        ]
+      },
+      "properties": {
+        "region": "incheon",
+        "name": "24시 건국 본 동물병원",
+        "address": "인천광역시 미추홀구 주안동",
+        "phone": "032-864-0075"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.448,
+          39.0365
+        ]
+      },
+      "properties": {
+        "region": "incheon",
+        "name": "24시퍼스트동물의료센터",
+        "address": "인천광역시 미추홀구 주안동",
+        "phone": "032-435-6333"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.458,
+          39.046499999999995
+        ]
+      },
+      "properties": {
+        "region": "incheon",
+        "name": "부평24시 SKY 동물의료센터",
+        "address": "인천광역시 부평구 부평동",
+        "phone": "032-710-7533"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.468,
+          39.0565
+        ]
+      },
+      "properties": {
+        "region": "incheon",
+        "name": "24시 인천 이음동물의료센터",
+        "address": "인천광역시 서구 심곡동",
+        "phone": "032-721-5665"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.478,
+          39.0665
+        ]
+      },
+      "properties": {
+        "region": "incheon",
+        "name": "24시 더원 동물병원",
+        "address": "인천광역시 서구 원당동",
+        "phone": "032-569-6677"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.488,
+          39.076499999999996
+        ]
+      },
+      "properties": {
+        "region": "incheon",
+        "name": "24시 더블유 동물의료센터",
+        "address": "인천광역시 서구 청라동",
+        "phone": "0325658270"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.498,
+          39.0865
+        ]
+      },
+      "properties": {
+        "region": "incheon",
+        "name": "24시 송도 온 동물의료센터",
+        "address": "인천광역시 연수구 송도동",
+        "phone": "032-831-7580"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.50799999999998,
+          39.0965
+        ]
+      },
+      "properties": {
+        "region": "incheon",
+        "name": "24시 송도힐 동물메디컬센터",
+        "address": "인천광역시 연수구 송도동",
+        "phone": "032-834-7275"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.518,
+          39.1065
+        ]
+      },
+      "properties": {
+        "region": "incheon",
+        "name": "24시송도오케이동물의료센터",
+        "address": "인천광역시 연수구 송도동",
+        "phone": "032-832-7975"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.528,
+          39.116499999999995
+        ]
+      },
+      "properties": {
+        "region": "incheon",
+        "name": "24시 연희동물의료센터",
+        "address": "인천광역시 연수구 청학동",
+        "phone": "032-821-8088"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.53799999999998,
+          39.1265
+        ]
+      },
+      "properties": {
+        "region": "jeonbuk",
+        "name": "군산24시 제일동물병원",
+        "address": "전북특별자치도 군산시 미장동",
+        "phone": "461-5079"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.548,
+          39.1365
+        ]
+      },
+      "properties": {
+        "region": "jeonbuk",
+        "name": "24시 올리몰스 동물메디컬센터",
+        "address": "전북특별자치도 전주시 덕진구 송천동1가",
+        "phone": "063-275-7979"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.558,
+          39.146499999999996
+        ]
+      },
+      "properties": {
+        "region": "jeonbuk",
+        "name": "24시 코끼리동물병원",
+        "address": "전북특별자치도 전주시 완산구 평화동1가",
+        "phone": "063-902-7975"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.56799999999998,
+          39.1565
+        ]
+      },
+      "properties": {
+        "region": "jeonbuk",
+        "name": "24시 코끼리동물의료센터",
+        "address": "전북특별자치도 전주시 완산구 평화동1가",
+        "phone": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.578,
+          39.1665
+        ]
+      },
+      "properties": {
+        "region": "jeju",
+        "name": "제주24시숨동물의료센터",
+        "address": "제주특별자치도 제주시 아라이동",
+        "phone": "064-805-8365"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.588,
+          39.1765
+        ]
+      },
+      "properties": {
+        "region": "chungnam",
+        "name": "아산아이윌24시동물메디컬센터",
+        "address": "충청남도 아산시 풍기동",
+        "phone": "041-532-3332"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.59799999999998,
+          39.186499999999995
+        ]
+      },
+      "properties": {
+        "region": "chungnam",
+        "name": "천안24시스카이동물메디컬센터",
+        "address": "충청남도 천안시 서북구 성정동",
+        "phone": "041-415-0975"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.608,
+          39.1965
+        ]
+      },
+      "properties": {
+        "region": "chungnam",
+        "name": "굿모닝24시동물병원",
+        "address": "충청남도 천안시 서북구 쌍용동",
+        "phone": "576-7552"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.618,
+          39.2065
+        ]
+      },
+      "properties": {
+        "region": "chungnam",
+        "name": "천안동물의료센터 24시",
+        "address": "충청남도 천안시 서북구 쌍용동",
+        "phone": "041-575-5000"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.628,
+          39.216499999999996
+        ]
+      },
+      "properties": {
+        "region": "chungbuk",
+        "name": "24시청주나음동물메디컬",
+        "address": "충청북도 청주시 상당구 용암동",
+        "phone": "***********"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.638,
+          39.2265
+        ]
+      },
+      "properties": {
+        "region": "chungbuk",
+        "name": "청주24시동물병원",
+        "address": "충청북도 청주시 서원구 사직동",
+        "phone": "***********"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.648,
+          39.2365
+        ]
+      },
+      "properties": {
+        "region": "chungbuk",
+        "name": "24시청주i동물병원",
+        "address": "충청북도 청주시 청원구 율량동",
+        "phone": "043)214-9975"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.658,
+          39.2465
+        ]
+      },
+      "properties": {
+        "region": "chungbuk",
+        "name": "24시 청주이음동물의료센터",
+        "address": "충청북도 청주시 흥덕구 비하동",
+        "phone": "043-715-3133"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.668,
+          39.256499999999996
+        ]
+      },
+      "properties": {
+        "region": "chungbuk",
+        "name": "24시청주다옴동물의료센터",
+        "address": "충청북도 청주시 흥덕구 송절동",
+        "phone": null
+      }
+    }
+  ]
+}
