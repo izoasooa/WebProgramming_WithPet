@@ -1,34 +1,67 @@
-function toggleContent(box) {
-  const content = box.querySelector('.content');
-  if (content) {
-    content.style.display = content.style.display === 'block' ? 'none' : 'block';
-  }
-}
+document.querySelectorAll(".text-box").forEach((box) => {
+  box.addEventListener("click", () => {
+    const id = box.getAttribute("data-detail");
+    const detailBox = document.getElementById(`detail-${id}`);
 
-let currentSlide = 0;
-const slides = document.querySelectorAll('.video-slide');
-const pageIndicator = document.querySelector('.page-indicator');
+    // 모든 detail-content 숨기기
+    document.querySelectorAll(".detail-content").forEach((el) => {
+      el.classList.remove("active");
+    });
 
-function showSlide(index) {
-  slides.forEach((slide, i) => {
-    slide.classList.add('hidden');
-    if (i === index) {
-      slide.classList.remove('hidden');
+    // 이미 열려있던 걸 다시 클릭하면 닫기
+    if (detailBox.classList.contains("active")) {
+      detailBox.classList.remove("active");
+    } else {
+      detailBox.classList.add("active");
     }
   });
-  pageIndicator.textContent = `${index + 1} / ${slides.length}`;
-}
-
-function prevSlide() {
-  currentSlide = (currentSlide - 1 + slides.length) % slides.length;
-  showSlide(currentSlide);
-}
-
-function nextSlide() {
-  currentSlide = (currentSlide + 1) % slides.length;
-  showSlide(currentSlide);
-}
-
-document.addEventListener('DOMContentLoaded', () => {
-  showSlide(currentSlide);
 });
+
+// 비디오 슬라이드
+const videos = [
+  "https://www.youtube.com/embed/92EByzD_Dt4",
+  "https://www.youtube.com/embed/R7gB825qZzM",
+  "https://www.youtube.com/embed/kJOQuXUhsdw",
+  "https://www.youtube.com/embed/emsYg5ZVOR0",
+  "https://www.youtube.com/embed/on8dJGMPMM0",
+  "https://www.youtube.com/embed/4f1QGu_7utw",
+  "https://www.youtube.com/embed/O0PjNgvgGGc",
+  "https://www.youtube.com/embed/O0PjNgvgGGc"
+];
+
+let currentPage = 0;
+const perPage = 3;
+const section = document.getElementById("video-section");
+const pageIndicator = document.getElementById("pageIndicator");
+
+function renderVideos() {
+  section.innerHTML = "";
+  const start = currentPage * perPage;
+  const end = start + perPage;
+  const currentVideos = videos.slice(start, end);
+
+  currentVideos.forEach((src) => {
+    const iframe = document.createElement("iframe");
+    iframe.src = src;
+    section.appendChild(iframe);
+  });
+
+  const totalPages = Math.ceil(videos.length / perPage);
+  pageIndicator.textContent = `${currentPage + 1} / ${totalPages}`;
+}
+
+document.getElementById("prevBtn").addEventListener("click", () => {
+  if (currentPage > 0) {
+    currentPage--;
+    renderVideos();
+  }
+});
+
+document.getElementById("nextBtn").addEventListener("click", () => {
+  if ((currentPage + 1) * perPage < videos.length) {
+    currentPage++;
+    renderVideos();
+  }
+});
+
+renderVideos();
