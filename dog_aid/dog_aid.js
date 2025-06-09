@@ -26,7 +26,7 @@ const videos = [
   "https://www.youtube.com/embed/on8dJGMPMM0",
   "https://www.youtube.com/embed/4f1QGu_7utw",
   "https://www.youtube.com/embed/O0PjNgvgGGc",
-  "https://www.youtube.com/embed/O0PjNgvgGGc"
+  "https://www.youtube.com/embed/o9kmmzaXGjc"
 ];
 
 let currentPage = 0;
