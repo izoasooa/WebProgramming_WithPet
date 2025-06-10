@@ -1,154 +1,505 @@
 <!DOCTYPE html>
 <html lang="ko">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Clean Blog - Start Bootstrap Theme</title>
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body>
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
-            <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="index.html">WithPet</a>
-                <div class="collapse navbar-collapse justify-content-end">
-                    <ul class="navbar-nav ms-3 d-flex flex-row gap-4">
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">강아지</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="post.html">고양이</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">24시 동물병원</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- Page Header-->
-        <header class="masthead" style="background-image: url('assets/img/pets-3715733_1280.jpg')">
-            <div class="container position-relative px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-md-10 col-lg-8 col-xl-7">
-                        <div class="site-heading">
-                            <h1>WithPet</h1>
-                            <span class="subheading">반려동물 지식채널</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <!-- Main Content-->
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>WithPet - 반려동물 지식채널</title>
+    <link rel="icon" href="assets/favicon.ico" />
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        section {
+            padding: 100px 0;
+        }
+
+        #hero {
+            height: 100vh;
+            background: url('assets/img/cat-2603395_1280.jpg') center center / cover no-repeat;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        #about {
+            background-color: #f8f9fa;
+         
+        }
+        .about-us-content {
+            padding: 0 !important;
+            margin: 0;
+            width: 100%;
+            max-width: 100%;
+        }
+
+        #recommend {
+            background-color: #ffffff;
+        }
+    <
+        .menu-list, .menu-list ul {
+            list-style-type: none;
+            padding-left: 0;
+            margin: 0;
+        }
+
+            .menu-list li {
+                list-style-type: none;
+            }
+
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 3px 20px;
+            background: transparent;
+            border-bottom: none;
+            position: fixed;
+            width: 100%;
+            z-index: 1000;
+        }
+
+
+        .hamburger {
+            font-size: 30px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            z-index: 1100;
+            color: white;
+        }
+
+        .slide-menu {
+            position: fixed;
+            top: 0;
+            right: -320px;
+            width: 300px;
+            height: 100%;
+            background: white;
+            box-shadow: -2px 0 10px rgba(0,0,0,0.1);
+            transition: right 0.3s ease;
+            z-index: 1090;
+            padding: 20px;
+            overflow-y: auto;
+        }
+
+            .slide-menu.open {
+                right: 0;
+            }
+
+            .slide-menu .close-btn {
+                background: none;
+                border: none;
+                font-size: 24px;
+                float: right;
+                cursor: pointer;
+            }
+
+        .menu-list {
+            list-style: none;
+            padding: 60px 0 0 0;
+            margin: 0;
+        }
+
+            .menu-list > li {
+                padding: 12px 15px;
+                border-top: 1px solid #eee;
+            }
+
+            .menu-list a {
+                color: #222;
+                text-decoration: none;
+                font-size: 18px;
+                display: block;
+            }
+
+                .menu-list a:hover {
+                    color: #5aa34f;
+                }
+
+        .submenu {
+            display: none;
+            padding-left: 0;
+        }
+
+            .submenu.open {
+                display: block;
+            }
+
+            .submenu li {
+                padding: 10px 15px;
+                border-top: 1px solid #f0f0f0;
+            }
+
+                .submenu li a {
+                    color: #222;
+                    font-size: 16px;
+                }
+
+                    .submenu li a:hover {
+                        color: #5aa34f;
+                    }
+
+        PC 가로 메뉴 텍스트 색상
+        .navbar-brand,
+        .navbar-nav .nav-link {
+            color: white !important;
+        }
+
+        .navbar-brand {
+            color: white !important;
+        }
+
+      
+
+        @media (min-width: 992px) {
+            header {
+                display: none; /* PC에서는 header 숨기기 */
+            }
+        }
+
+        @media (max-width: 991px) {
+            header {
+                display: flex; /* 모바일에서는 header 보이기 */
+            }
+        }
+
+        .fade-up {
+            opacity: 0;
+            transform: translateY(50px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+
+            .fade-up.visible {
+                opacity: 1;
+                transform: translateY(0);
+            }
+
+        .intro-banner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 80px 5%;
+            background-color: #ffffff;
+        }
+
+        .intro-text {
+            flex: 1;
+            max-width: 50%;
+            padding-right: 40px;
+        }
+
+        .intro-image {
+            flex: 1;
+            max-width: 50%;
+            text-align: right;
+        }
+
+            .intro-image img {
+                width: 80%;
+                max-width: 400px;
+                height: auto;
+            }
+
+        .intro-text .en {
+            font-size: 38px;
+            font-weight: 800;
+            color: darkgreen;
+            line-height: 1.4;
+            margin: 0 0 20px;
+        }
+
+        .intro-text .ko {
+            font-size: 20px;
+            color: darkgreen;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        .intro-text .highlight {
+            font-weight: 600;
+        }
+
+        .intro-btn {
+            display: inline-block;
+            background-color: darkgreen;
+            color: white;
+            padding: 10px 24px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 16px;
+        }
+
+        @media (max-width: 768px) {
+            .intro-banner {
+                flex-direction: row;
+                /*text-align: center;*/
+            }
+
+            .intro-text, .intro-image {
+                max-width: 50%;
+                padding: 0;
+            }
+
+            .intro-image {
+                margin-top: 10px;
+            }
+        }
+
+        /* 애니메이션 정의 */
+        @keyframes fadeUp {
+            0% {
+                opacity: 0;
+                transform: translateY(40px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* 적용 */
+        .intro-text {
+            flex: 1;
+            max-width: 50%;
+            padding-right: 40px;
+            opacity: 0;
+            animation: fadeUp 1.2s ease-out forwards;
+            animation-delay: 0.2s;
+        }
+
+        .intro-image {
+            flex: 1;
+            max-width: 50%;
+            text-align: right;
+            opacity: 0;
+            animation: fadeUp 1.2s ease-out forwards;
+            animation-delay: 0.6s;
+        }
+
+        @keyframes fadeUp {
+            0% {
+                opacity: 0;
+                transform: translateY(40px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        #hero {
+            height: 100vh;
+            background: url('assets/img/cat-2603395_1280.jpg') center center / cover no-repeat;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+        }
+
+            #hero h1 {
+                font-size: 40px;
+                font-weight: 700;
+                margin-bottom: 20px;
+                opacity: 0;
+                animation: fadeUp 1.2s ease-out forwards;
+                animation-delay: 0.2s;
+            }
+
+            #hero .lead {
+                font-size: 20px;
+                opacity: 0;
+                animation: fadeUp 1.2s ease-out forwards;
+                animation-delay: 0.5s;
+            }
+
+
+       
+    </style>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top d-none d-lg-block" id="mainNav">
         <div class="container px-4 px-lg-5">
-            <div class="row gx-4 gx-lg-5 justify-content-center">
-                <div class="col-md-10 col-lg-8 col-xl-7">
-                    <!-- Post preview-->
-                    <div class="post-preview">
-                        <a href="post.html">
-                            <h2 class="post-title">Man must explore, and this is exploration at its greatest</h2>
-                            <h3 class="post-subtitle">Problems look mighty small from 150 miles up</h3>
-                        </a>
-                        <p class="post-meta">
-                            Posted by
-                            <a href="#!">Start Bootstrap</a>
-                            on September 24, 2023
-                        </p>
-                    </div>
-                    <!-- Divider-->
-                    <hr class="my-4" />
-                    <!-- Post preview-->
-                    <div class="post-preview">
-                        <a href="post.html"><h2 class="post-title">I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.</h2></a>
-                        <p class="post-meta">
-                            Posted by
-                            <a href="#!">Start Bootstrap</a>
-                            on September 18, 2023
-                        </p>
-                    </div>
-                    <!-- Divider-->
-                    <hr class="my-4" />
-                    <!-- Post preview-->
-                    <div class="post-preview">
-                        <a href="post.html">
-                            <h2 class="post-title">Science has not yet mastered prophecy</h2>
-                            <h3 class="post-subtitle">We predict too much for the next year and yet far too little for the next ten.</h3>
-                        </a>
-                        <p class="post-meta">
-                            Posted by
-                            <a href="#!">Start Bootstrap</a>
-                            on August 24, 2023
-                        </p>
-                    </div>
-                    <!-- Divider-->
-                    <hr class="my-4" />
-                    <!-- Post preview-->
-                    <div class="post-preview">
-                        <a href="post.html">
-                            <h2 class="post-title">Failure is not an option</h2>
-                            <h3 class="post-subtitle">Many say exploration is part of our destiny, but it’s actually our duty to future generations.</h3>
-                        </a>
-                        <p class="post-meta">
-                            Posted by
-                            <a href="#!">Start Bootstrap</a>
-                            on July 8, 2023
-                        </p>
-                    </div>
-                    <!-- Divider-->
-                    <hr class="my-4" />
-                    <!-- Pager-->
-                    <div class="d-flex justify-content-end mb-4"><a class="btn btn-primary text-uppercase" href="#!">Older Posts →</a></div>
+            <a href="index.html">
+                <img src="assets/img/dogandcat_white.png" alt="WithPet 로고" style="height: 50px;" />
+            </a>
+            <a class="navbar-brand" href="index.html">WithPet</a>
+            <div class="collapse navbar-collapse justify-content-end">
+                <ul class="navbar-nav ms-3 d-flex flex-row gap-4">
+                    <li class="nav-item">
+                        <a class="nav-link" href="dog.html">강아지</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cat.html">고양이</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="vet.html">24시 동물병원</a>
+                    </li>
+                    <!--<li class="nav-item">-->
+                    <!--✅ PC에서도 항상 보이는 햄버거 아이콘-->
+                    <!--<button class="hamburger" id="hamburgerBtn" onclick="toggleMenu()" style="background: none; border: none;">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                    </li>-->
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <header>
+        <div class="container px-4 px-lg-5">
+            <a href="index.html">
+                <img src="assets/img/dogandcat_white.png" alt="WithPet 로고" style="height: 50px;" />
+            </a>
+            <a class="navbar-brand" href="index.html">WithPet</a>
+            <button class="hamburger" id="hamburgerBtn" onclick="toggleMenu()"><i class="fas fa-bars"></i></button>
+        </div>
+    </header>
+    <div class="slide-menu" id="slideMenu">
+        <button class="close-btn" onclick="toggleMenu()">✕</button>
+        <ul class="menu-list">
+            <li>
+                <a href="#" onclick="toggleSubmenu(event)">강아지</a>
+                <ul class="submenu">
+                    <li>
+                        <a href="#" onclick="toggleSubmenu(event)">지식정보</a>
+                        <ul class="submenu">
+                            <li><a href="dog_food.html">음식</a></li>
+                            <li><a href="dog_health.html">건강</a></li>
+                            <li><a href="dog_vaccine.html">예방접종</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="dog_aid.html">응급처치</a></li>
+                    <li><a href="dog_behavior.html">행동패턴</a></li>
+                </ul>
+            </li>
+            <li><a href="cat.html">고양이</a></li>
+            <li><a href="vet.html">24시 동물병원</a></li>
+        </ul>
+    </div>
+
+
+    <section id="hero">
+        <h1>WithPet에 오신 걸 환영합니다</h1>
+        <p class="lead">반려동물을 위한 지식채널</p>
+    </section>
+
+    <section id="about">
+        <div class="container about-us-content">
+            <section class="intro-banner">
+                <div class="intro-text">
+                    <p class="en">We share the love and joy<br>our pets give us every day.</p>
+                    <p class="ko">반려생활에 꼭 필요한 정보를 전하는 <span class="highlight">WithPet</span></p>
+                    <a href="#about" class="intro-btn">About us</a>
+                </div>
+                <div class="intro-image">
+                    <img src="assets/img/freedog.png" alt="dog illustration" />
+                </div>
+            </section>
+        </div>
+    </section>
+
+
+    <section id="recommend" class="bg-white py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">추천 글</h2>
+            <div class="scrolling-wrapper d-flex flex-nowrap overflow-auto px-2">
+                <!-- 카드 1 -->
+                <div class="text-center" style="min-width: 100px; flex-shrink: 0;">
+                    <img src="assets/img/cat-2170494_1280.jpg" class="card-img-top" alt="..." style="width: 150px; border-radius: 10px; margin-bottom: 10px;">
+                    <h5 class="card-title">고양이 사료 고르는 법</h5>
+
+                </div>
+                <!-- 카드 2 -->
+                <div class="text-center" style="min-width: 100px; flex-shrink: 0;">
+                    <img src="assets/img/cat-2170494_1280.jpg" class="card-img-top" alt="..." style="width: 150px; border-radius: 10px; margin-bottom: 10px;">
+                    <h5 class="card-title">고양이 사료 고르는 법</h5>
+
+                </div>
+                <!-- 카드 3 -->
+                <div class="text-center" style="min-width: 100px; flex-shrink: 0;">
+                    <img src="assets/img/cat-2170494_1280.jpg" class="card-img-top" alt="..." style="width: 150px; border-radius: 10px; margin-bottom: 10px;">
+                    <h5 class="card-title">고양이 사료 고르는 법</h5>
+
                 </div>
             </div>
         </div>
-        <!-- Footer-->
-        <footer class="border-top">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-md-10 col-lg-8 col-xl-7">
-                        <ul class="list-inline text-center">
-                            <li class="list-inline-item">
-                                <a href="#!">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#!">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#!">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                        </ul>
-                        <div class="small text-center text-muted fst-italic">Copyright &copy; Your Website 2023</div>
-                    </div>
+    </section>
+
+
+    <footer class="border-top">
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-md-10 col-lg-8 col-xl-7">
+                    <ul class="list-inline text-center">
+                        <li class="list-inline-item"><a href="#"><span class="fa-stack fa-lg"><i class="fas fa-circle fa-stack-2x"></i><i class="fab fa-twitter fa-stack-1x fa-inverse"></i></span></a></li>
+                        <li class="list-inline-item"><a href="#"><span class="fa-stack fa-lg"><i class="fas fa-circle fa-stack-2x"></i><i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i></span></a></li>
+                        <li class="list-inline-item"><a href="#"><span class="fa-stack fa-lg"><i class="fas fa-circle fa-stack-2x"></i><i class="fab fa-github fa-stack-1x fa-inverse"></i></span></a></li>
+                    </ul>
+                    <div class="small text-center text-muted fst-italic">Copyright &copy; WithPet 2025</div>
                 </div>
             </div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+    <script>
+        function toggleMenu() {
+            const nav = document.getElementById('mainNav');
+            /*nav.classList.toggle('show');*/
+            const menu = document.getElementById('slideMenu');
+            const hamburger = document.getElementById('hamburgerBtn');
+            const isOpen = menu.classList.toggle('open');
+            hamburger.style.display = isOpen ? 'none' : 'block';
+        }
+
+        function toggleSubmenu(event) {
+            event.preventDefault();
+            const submenu = event.target.nextElementSibling;
+            if (submenu && submenu.classList.contains("submenu")) {
+                submenu.classList.toggle("open");
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const aboutSection = document.querySelector('.about-us-content');
+
+            const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        aboutSection.classList.add('visible');
+                    }
+                });
+            }, {
+                threshold: 0.3
+            });
+
+            if (aboutSection) {
+                observer.observe(aboutSection);
+            }
+        });
+
+
+    </script>
+</body>
 </html>

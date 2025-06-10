@@ -1,0 +1,296 @@
+﻿
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>강아지 건강</title>
+    <link rel="icon" href="assets/favicon.ico" />
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            color: ghostwhite;
+            /*background: linear-gradient(to bottom, #f9fdf9, #eaf7ea);*/
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: white;
+            /*border-bottom: 1px solid #ccc;*/
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+            header .logo {
+                font-weight: bold;
+                font-size: 24px;
+            }
+
+        nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        .submenu {
+            display: flex;
+            justify-content: center;
+            gap: 60px;
+            margin: 30px 0 20px;
+            border-bottom: 1px solid #e0e0e0;
+            padding-bottom: 10px;
+        }
+
+        .submenu-link {
+            font-size: 17px;
+            font-weight: 500;
+            color: #4caf50;
+            text-decoration: none;
+            padding-bottom: 8px;
+            border-bottom: 3px solid transparent;
+            transition: all 0.2s ease-in-out;
+        }
+
+            .submenu-link:hover {
+                color: #2e7d32;
+                border-bottom: 3px solid #a5d6a7;
+            }
+
+            .submenu-link.active {
+                font-weight: 700;
+                color: #2e7d32;
+                border-bottom: 3px solid #66bb6a;
+            }
+
+        .menu-section {
+            margin: 50px auto 20px;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .menu-card {
+            background-color: #f5f5f5;
+            color: #444;
+            border-radius: 16px;
+            padding: 10px 10px;
+            font-weight: 600;
+            font-size: 17px;
+            width: 100px;
+            text-align: center;
+            text-decoration: none;
+            transition: all 0.2s ease-in-out;
+        }
+
+            .menu-card:hover {
+                background-color: #d9f0d9;
+                color: #2d6a4f;
+            }
+
+            .menu-card.active {
+                background-color: #b7e4c7;
+                color: #1b4332;
+            }
+
+        .content-container {
+            max-width: 1000px;
+            margin: 30px auto 60px;
+            padding: 0 20px;
+        }
+
+        .info-card {
+            display: flex;
+            gap: 25px;
+            background-color: #f5f5f5;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            margin-bottom: 30px;
+        }
+
+            .info-card img {
+                width: 400px;
+                height: auto;
+                border-radius: 12px;
+                object-fit: contain;
+            }
+
+        .info-text {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center; /* 수직 가운데 정렬 */
+     
+        }
+
+            .info-text h3 {
+                font-size: 25px;
+                margin-bottom: 15px;
+                font-weight: 700;
+                color: #2b4d2e;
+            }
+
+            .info-text h4 {
+                font-size: 23px;
+                margin-bottom: 15px;
+                font-weight: 700;
+                color: #2b4d2e;
+            }
+
+            .info-text ul {
+                color: gray;
+                padding-left: 20px;
+                margin: 0;
+            }
+
+            .info-text li {
+                margin-bottom: 6px;
+            }
+
+            .info-text p {
+                color: gray;
+            }
+
+        .highlight {
+            font-weight: bold;
+            color: #4e944f;
+        }
+
+        .post-meta {
+            font-size: 15px;
+            color: #888;
+            margin-top: 20px;
+        }
+
+        @media screen and (max-width: 768px) {
+            .info-card {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+                .info-card img {
+                    width: 80%;
+                }
+
+            .info-text {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo"><a href="index.html" style="text-decoration: none; color: black;">WithPet</a></div>
+        <nav>
+            <a href="dog.html">강아지</a>
+            <a href="cat.html">고양이</a>
+            <a href="vet.html">24시 동물병원</a>
+        </nav>
+    </header>
+
+    <div class="submenu">
+        <a href="dog_info.html" class="submenu-link active">지식정보</a>
+        <a href="dog_aid.html" class="submenu-link">응급처치</a>
+        <a href="dog_behavior.html" class="submenu-link">행동패턴</a>
+    </div>
+
+    <div class="menu-section">
+        <a href="dog_food.html" class="menu-card">
+            <i class="fas fa-drumstick-bite"></i><br>음식
+        </a>
+        <a href="dog_health.html" class="menu-card active">
+            <i class="fas fa-heartbeat"></i><br>건강
+        </a>
+        <a href="dog_vaccine.html" class="menu-card">
+            <i class="fas fa-syringe"></i><br>예방접종
+        </a>
+    </div>
+
+    <div class="content-container">
+        <div class="info-card">
+            <img src="assets/img/dog_bug.jpg" alt="강아지 진드기">
+            <div class="info-text">
+                <h3><i class="fas fa-ban"></i>강아지가 진드기에 물렸을 때</h3>
+                <p>피부가 붓고 빨갛게 부어오름, 해당 부위를 자주 핥음</p>
+                <p class="post-meta">Posted by WithPet on June 4, 2025</p>
+            </div>
+        </div>
+
+        <div class="info-card">
+            <img src="assets/img/dog_noteat.jpg" alt="사료 거부">
+            <div class="info-text">
+                <h3><i class="fas fa-exclamation-circle"></i>강아지가 갑자기 사료를 안 먹을 때</h3>
+                <p>
+                <ul>
+                    <li>사료만 거부하는 경우 - 단순 입맛 문제일 수 있습니다</li>
+                    <li>간식까지 안 먹는 경우 - 건강 이상을 의심해야 합니다</li>
+                    <li>물까지 안 마시는 경우 - 탈수 위험이 높고, 대사성 질환의 신호일 수 있습니다</li>
+                </ul>
+                <p class="post-meta">Posted by WithPet on May 18, 2025</p>
+            </div>
+        </div>
+
+        <div class="info-card">
+            <img src="assets/img/dog_vomit.jpg" alt="강아지 구토">
+            <div class="info-text">
+                <h3><i class="fas fa-seedling"></i>강아지가 갑자기 구토를 할 때</h3>
+                <ul>
+                    <li><span class="highlight">생리적 구토</span> – 급하게 음식을 먹거나 공복 상태에서 담즙을 토하는 등 일시적이고 비교적 가벼운 경우</li>
+                    <li><span class="highlight">병적 구토</span> – 하루에 여러 번 토하거나, 토사물에 피나 이물질이 섞여 있는 경우처럼 질병과 관련된 심각한 상황</li>
+                </ul>
+                <p class="post-meta">Posted by WithPet on May 2, 2025</p>
+            </div>
+        </div>
+
+        <div class="info-card">
+            <img src="assets/img/dog_legsick.webp" alt="강아지 슬개골 탈구">
+            <div class="info-text">
+                <h3><i class="fas fa-seedling"></i>강아지 슬개골 탈구</h3>
+                <p>강아지 슬개골 탈구는 슬개골이 정상적인 위치에서 벗어나 탈구되는 질환</p>
+                <h4>슬개골 탈구 관리 및 예방</h4>
+                <ul>
+                    <li><span class="highlight">체중 관리</span></li>
+                    <li><span class="highlight">미끄럼 방지 패드 사용</span></li>
+                    <li><span class="highlight">정기적인 검진</span></li>
+                    <li><span class="highlight">물리치료</span></li>
+                </ul>
+                <p class="post-meta">Posted by WithPet on May 2, 2025</p>
+            </div>
+        </div>
+
+        <div class="info-card">
+            <img src="assets/img/dog_cusing.webp" alt="강아지 쿠싱 증후군">
+            <div class="info-text">
+                <h3><i class="fas fa-seedling"></i>강아지 쿠싱 증후군</h3>
+                <p>강아지 쿠싱 증후군은 강아지의 부신에서 스트레스 호르몬인 코르티솔(Cortisol)이 과도하게 분비되면서 발생하는 내분비 질환입니다</p>
+                <h4>원인 3가지</h4>
+                <ul>
+                    <li><span class="highlight">뇌하수체 종양</span></li>
+                    <li><span class="highlight">부신 종양</span></li>
+                    <li><span class="highlight">장기적인 스테로이드 사용</span></li>
+                </ul>
+                <p></p>
+                <h4>증상</h4>
+                <ul>
+                    <li><span class="highlight">물을 많이 마시고, 소변 양이 증가한다</span></li>
+                    <li><span class="highlight">식욕의 비정상적인 증가</span></li>
+                    <li><span class="highlight">배가 팽창되고, 근육이 빠져 배가 처짐</span></li>
+                </ul>
+                <p class="post-meta">Posted by WithPet on May 2, 2025</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+
