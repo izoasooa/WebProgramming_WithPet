@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>강아지 행동해석</title>
+  <link rel="stylesheet" href="dog_behavior.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: "Arial", sans-serif;
+      background-color: #ffffff;
+    }
+
+    /* 상단 바 - 뉴스/블로그 스타일 */
+    .top-bar {
+      background-color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 20px 40px;
+      border-bottom: 1px solid #ddd;
+      gap: 40px; /* 로고와 텍스트 간격 증가 */
+    }
+
+    .top-bar .logo img {
+      height: 55px;
+    }
+
+    .detail-text {
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .detail-text span:first-child {
+      color: #444; /* 행동패턴 색상 */
+    }
+
+    .detail-text span:last-child {
+      color: #444; /* 상세정보 색상 (→ 목록으로 돌아가기와 동일하게) */
+      margin-left: 5px;
+    }
+
+    .article-container {
+      max-width: 900px;
+      margin: 60px auto;
+      padding: 0 30px;
+      line-height: 1.8;
+    }
+
+    .article-title {
+      font-size: 28px;
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+
+    .article-meta {
+      font-size: 14px;
+      color: #888;
+      margin-bottom: 30px;
+    }
+
+    .article-img {
+      width: 100%;
+      max-height: 400px;
+      object-fit: cover;
+      margin-bottom: 30px;
+      border-radius: 6px;
+    }
+
+    .article-content p {
+      margin-bottom: 18px;
+      font-size: 17px;
+      color: #333;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-top: 40px;
+      color: #66bb6a;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    .back-link:hover {
+      text-decoration: underline;
+    }
+
+    footer.bottom-banner {
+      background-color: #eafaf1;
+      padding: 14px 0; /* 세로 길이 줄임 */
+      text-align: center;
+      font-size: 13px;
+      color: #666;
+      border-top: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 상단 바 -->
+  <div class="top-bar">
+    <a href="../index.html" class="logo">
+      <img src="img/WithPet_logo.png" alt="로고" />
+    </a>
+    <div class="detail-text"><span>행동패턴</span><span>상세정보</span></div>
+  </div>
+
+  <!-- 본문 -->
+  <div class="article-container">
+    <h2 class="article-title">핥기 행동의 의미와 주의점</h2>
+    <div class="article-meta">작성일: 2025.06.07 ｜ 카테고리: <span style="color:#66bb6a;">행동 해석</span></div>
+    <img src="img/dog_behavior1.jpg" alt="강아지 행동 이미지" class="article-img" />
+
+    <div class="article-content">
+      <p>강아지가 주인을 핥는 행동은 애정 표현의 대표적인 예이다. 이는 어릴 때 어미 개가 새끼를 핥아주며 유대감을 형성하는 습성에서 비롯된 행동으로, 인간과의 관계에서도 동일한 의미로 나타난다. 강아지가 손이나 얼굴을 살짝 핥는 것은 신뢰와 친밀함의 표현이다. 하지만 핥기가 지나치게 자주 반복되거나, 특정 상황에서 강박적으로 나타난다면 이는 불안이나 스트레스의 징후일 수 있다. 예를 들어, 혼자 남겨졌을 때, 새로운 환경에 노출됐을 때 갑자기 핥는 행동이 많아진다면 심리적 긴장이 원인일 수 있다. 또 피부를 과하게 핥는 경우 피부염이나 알레르기 같은 건강 문제와도 연관될 수 있다. 핥는 대상, 빈도, 시기 등을 면밀히 관찰하고 필요 시 수의사나 행동 전문가의 상담을 받는 것이 좋다. 적절한 핥기는 긍정적인 신호지만, 그것이 강박적으로 바뀌는 순간 주의가 필요하다.</p>
+    </div>
+
+    <a href="dog_behavior.html" class="back-link">← 목록으로 돌아가기</a>
+  </div>
+
+  <!-- 하단 -->
+  <footer class="bottom-banner">
+    © 2025 WithPet | 반려동물과 더 가까이
+  </footer>
+
+</body>
+</html>
