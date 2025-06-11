@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>꼬리로 읽는 강아지의 감정</title>
+  <link rel="stylesheet" href="dog_behavior.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: "Arial", sans-serif;
+      background-color: #ffffff;
+    }
+
+    /* 상단 바 - 뉴스/블로그 스타일 */
+    .top-bar {
+      background-color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 20px 40px;
+      border-bottom: 1px solid #ddd;
+      gap: 40px; /* 로고와 텍스트 간격 증가 */
+    }
+
+    .top-bar .logo img {
+      height: 55px;
+    }
+
+    .detail-text {
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .detail-text span:first-child {
+      color: #444; /* 행동패턴 색상 */
+    }
+
+    .detail-text span:last-child {
+      color: #444; /* 상세정보 색상 (→ 목록으로 돌아가기와 동일하게) */
+      margin-left: 5px;
+    }
+
+    .article-container {
+      max-width: 900px;
+      margin: 60px auto;
+      padding: 0 30px;
+      line-height: 1.8;
+    }
+
+    .article-title {
+      font-size: 28px;
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+
+    .article-meta {
+      font-size: 14px;
+      color: #888;
+      margin-bottom: 30px;
+    }
+
+    .article-img {
+      width: 100%;
+      max-height: 400px;
+      object-fit: cover;
+      margin-bottom: 30px;
+      border-radius: 6px;
+    }
+
+    .article-content p {
+      margin-bottom: 18px;
+      font-size: 17px;
+      color: #333;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-top: 40px;
+      color: #66bb6a;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    .back-link:hover {
+      text-decoration: underline;
+    }
+
+    footer.bottom-banner {
+      background-color: #eafaf1;
+      padding: 14px 0; /* 세로 길이 줄임 */
+      text-align: center;
+      font-size: 13px;
+      color: #666;
+      border-top: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 상단 바 -->
+  <div class="top-bar">
+    <a href="../index.html" class="logo">
+      <img src="img/WithPet_logo.png" alt="로고" />
+    </a>
+    <div class="detail-text"><span>행동패턴</span><span>상세정보</span></div>
+  </div>
+
+  <!-- 본문 -->
+  <div class="article-container">
+    <h2 class="article-title">꼬리, 귀, 짖음, 핥기: 강아지의 언어</h2>
+    <div class="article-meta">작성일: 2025.06.07 ｜ 카테고리: <span style="color:#66bb6a;">행동 해석</span></div>
+    <img src="img/dog_behavior1.jpg" alt="강아지 행동 이미지" class="article-img" />
+
+    <div class="article-content">
+      <p>강아지는 말로 감정을 표현할 수 없기 때문에 몸짓 언어로 자신을 드러낸다. 그중에서도 꼬리는 감정을 가장 직관적으로 보여주는 부위이다. 꼬리를 높게 치켜들고 활발하게 흔드는 모습은 강아지가 기분이 좋고 자신감 있는 상태임을 뜻한다. 특히 고개를 들고 꼬리를 빠르게 흔든다면 이는 반가움과 흥분의 감정이 복합적으로 나타난 것이다. 반대로 꼬리가 아래로 처지거나 다리 사이로 말려 들어가 있으면 두려움이나 불안감을 느끼고 있다는 신호이다. 낯선 환경에 있거나 새로운 사람을 만났을 때 이런 반응이 자주 나타나며, 긴장하거나 위협을 느낄 때는 꼬리를 움직이지 않고 그대로 멈춘 채 경직된 자세를 취하기도 한다. 꼬리의 움직임을 면밀히 관찰하면 강아지의 내면 상태를 파악하고, 적절한 대응을 할 수 있다.</p>
+    </div>
+
+    <a href="dog_behavior.html" class="back-link">← 목록으로 돌아가기</a>
+  </div>
+
+  <!-- 하단 -->
+  <footer class="bottom-banner">
+    © 2025 WithPet | 반려동물과 더 가까이
+  </footer>
+
+</body>
+</html>
