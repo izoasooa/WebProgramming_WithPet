@@ -1,0 +1,259 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>고양이 음식</title>
+    <link rel="icon" href="assets/favicon.ico" />
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            color : ghostwhite;
+            /*background: linear-gradient(to bottom, #f9fdf9, #eaf7ea);*/
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: white;
+            /*border-bottom: 1px solid #ccc;*/
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+            header .logo {
+                font-weight: bold;
+                font-size: 24px;
+            }
+
+        nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        .submenu {
+            display: flex;
+            justify-content: center;
+            gap: 60px;
+            margin: 30px 0 20px;
+            border-bottom: 1px solid #e0e0e0;
+            padding-bottom: 10px;
+        }
+
+        .submenu-link {
+            font-size: 17px;
+            font-weight: 500;
+            color: #4caf50;
+            text-decoration: none;
+            padding-bottom: 8px;
+            border-bottom: 3px solid transparent;
+            transition: all 0.2s ease-in-out;
+        }
+
+            .submenu-link:hover {
+                color: #2e7d32;
+                border-bottom: 3px solid #a5d6a7;
+            }
+
+            .submenu-link.active {
+                font-weight: 700;
+                color: #2e7d32;
+                border-bottom: 3px solid #66bb6a;
+            }
+
+        .menu-section {
+            margin: 50px auto 20px;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .menu-card {
+            background-color: #f5f5f5;
+            color: #444;
+            border-radius: 16px;
+            padding: 10px 10px;
+            font-weight: 600;
+            font-size: 17px;
+            width: 100px;
+            text-align: center;
+            text-decoration: none;
+            transition: all 0.2s ease-in-out;
+        }
+
+            .menu-card:hover {
+                background-color: #d9f0d9;
+                color: #2d6a4f;
+            }
+
+            .menu-card.active {
+                background-color: #b7e4c7;
+                color: #1b4332;
+            }
+
+        .content-container {
+            max-width: 1000px;
+            margin: 30px auto 60px;
+            padding: 0 20px;
+        }
+
+        .info-card {
+            display: flex;
+            gap: 25px;
+            background-color: #f5f5f5;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            margin-bottom: 30px;
+        }
+
+            .info-card img {
+                width: 250px;
+                height: auto;
+                border-radius: 10px;
+                object-fit: contain;
+            }
+
+        .info-text {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center; /* 수직 가운데 정렬 */
+/*
+            align-items: center;
+            text-align: center;*/
+        }
+
+
+            .info-text h3 {
+                font-size: 25px;
+                margin-bottom: 15px;
+                font-weight: 700;
+                color: #2b4d2e;
+            }
+
+            .info-text ul {
+                color : gray;
+                padding-left: 20px;
+                margin: 0;
+            }
+
+            .info-text li {
+                margin-bottom: 6px;
+
+            }
+            .info-text p {
+                color : gray;
+            }
+
+        .highlight {
+            font-weight: bold;
+            color: #4e944f;
+        }
+
+        .post-meta {
+            font-size: 15px;
+            color: #888;
+            margin-top: 20px;
+        }
+
+        @media screen and (max-width: 768px) {
+            .info-card {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+                .info-card img {
+                    width: 80%;
+                }
+
+            .info-text {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo"><a href="index.html" style="text-decoration: none; color: black;">WithPet</a></div>
+        <nav>
+            <a href="dog.html">강아지</a>
+            <a href="cat.html">고양이</a>
+            <a href="vet.html">24시 동물병원</a>
+        </nav>
+    </header>
+
+    <div class="submenu">
+        <a href="cat_info.html" class="submenu-link active">지식정보</a>
+        <a href="cat_aid.html" class="submenu-link">응급처치</a>
+        <a href="cat_behavior.html" class="submenu-link">행동패턴</a>
+    </div>
+
+    <div class="menu-section">
+        <a href="cat_food.html" class="menu-card active">
+            <i class="fas fa-drumstick-bite"></i><br>음식
+        </a>
+        <a href="cat_health.html" class="menu-card">
+            <i class="fas fa-heartbeat"></i><br>건강
+        </a>
+        <a href="cat_vaccine.html" class="menu-card">
+            <i class="fas fa-syringe"></i><br>예방접종
+        </a>
+    </div>
+
+    <div class="content-container">
+        <div class="info-card">
+            <img src="assets/img/cat_nofood.jpeg" alt="위험한 음식">
+            <div class="info-text">
+                <h3><i class="fas fa-ban"></i> 고양이가 먹으면 위험한 음식</h3>
+                <ul>
+                    <li><span class="highlight">초콜릿</span> – 고양이에게 독성이 되는 성분 존재</li>
+                    <li><span class="highlight">닭뼈 등의 작은 뼈</span> – 장기 손상 위험</li>
+                    <li><span class="highlight">포도/건포도</span> – 신장 손상</li>
+                    <li><span class="highlight">카페인</span> – 중독 증상</li>
+                    <li><span class="highlight">양파와 마늘</span> – 혈소판 파괴</li>
+                    <li><span class="highlight">유제품</span> – 고양이 유당분해효소 부족</li>
+                </ul>
+                <p class="post-meta">Posted by WithPet on June 4, 2025</p>
+            </div>
+        </div>
+
+        <div class="info-card">
+            <img src="assets/img/cat_pumkin.jpg" alt="고양이 단호박 섭취">
+            <div class="info-text">
+                <h3><i class="fas fa-exclamation-circle"></i> 고양이 단호박 섭취가 헤어볼 배출에 도움이 된다고?</h3>
+                <p>
+                    단호박은 섬유질이 많은 음식으로 고양이의 소화 과정을 돕습니다. 그래서 <span class="highlight">고양이 변비</span>에도 효능이 있습니다.
+                    또한 포만감을 쉽게 느끼게 하여 <span class="highlight">고양이 다이어트</span>에 도움이 됩니다. 단호박은 고양이 장 건강에 긍정적인 영향을 끼치기에 헤어볼 배출에도 큰 도움이 됩니다.
+                </p>
+                <p class="post-meta">Posted by WithPet on May 18, 2025</p>
+            </div>
+        </div>
+
+        <div class="info-card">
+            <img src="assets/img/cat_norecommendfood.jpg" alt="고양이가 조심해야 할 의외의 음식">
+            <div class="info-text">
+                <h3><i class="fas fa-seedling"></i> 고양이가 조심해야 할 의외의 음식</h3>
+                <ul>
+                    <li><span class="highlight">익지 않은 토마토와 감자</span></li>
+                    <li><span class="highlight">사람 참치캔</span></li>
+                    <li><span class="highlight">등푸른 생선</span></li>
+                    <li><span class="highlight">해산물</span></li>
+                </ul>
+                <p class="post-meta">Posted by WithPet on May 2, 2025</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
