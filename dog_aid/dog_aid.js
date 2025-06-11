@@ -1,23 +1,12 @@
-document.querySelectorAll(".text-box").forEach((box) => {
-  box.addEventListener("click", () => {
-    const id = box.getAttribute("data-detail");
-    const detailBox = document.getElementById(`detail-${id}`);
-
-    // 모든 detail-content 숨기기
-    document.querySelectorAll(".detail-content").forEach((el) => {
-      el.classList.remove("active");
-    });
-
-    // 이미 열려있던 걸 다시 클릭하면 닫기
-    if (detailBox.classList.contains("active")) {
-      detailBox.classList.remove("active");
-    } else {
-      detailBox.classList.add("active");
-    }
+function toggleContent(box) {
+  const allBoxes = document.querySelectorAll('.text-box');
+  allBoxes.forEach(b => {
+    if (b !== box) b.classList.remove('active');
   });
-});
 
-// 비디오 슬라이드
+  box.classList.toggle('active');
+}
+
 const videos = [
   "https://www.youtube.com/embed/92EByzD_Dt4",
   "https://www.youtube.com/embed/R7gB825qZzM",
@@ -59,10 +48,13 @@ document.getElementById("prevBtn").addEventListener("click", () => {
 });
 
 document.getElementById("nextBtn").addEventListener("click", () => {
-  if ((currentPage + 1) * perPage < videos.length) {
+  const totalPages = Math.ceil(videos.length / perPage);
+  if (currentPage < totalPages - 1) {
     currentPage++;
     renderVideos();
   }
 });
 
+// 페이지 로드시 초기 렌더링
 renderVideos();
+
