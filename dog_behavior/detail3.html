@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>강아지 행동해석</title>
+  <link rel="stylesheet" href="dog_behavior.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: "Arial", sans-serif;
+      background-color: #ffffff;
+    }
+
+    /* 상단 바 - 뉴스/블로그 스타일 */
+    .top-bar {
+      background-color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 20px 40px;
+      border-bottom: 1px solid #ddd;
+      gap: 40px; /* 로고와 텍스트 간격 증가 */
+    }
+
+    .top-bar .logo img {
+      height: 55px;
+    }
+
+    .detail-text {
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .detail-text span:first-child {
+      color: #444; /* 행동패턴 색상 */
+    }
+
+    .detail-text span:last-child {
+      color: #444; /* 상세정보 색상 (→ 목록으로 돌아가기와 동일하게) */
+      margin-left: 5px;
+    }
+
+    .article-container {
+      max-width: 900px;
+      margin: 60px auto;
+      padding: 0 30px;
+      line-height: 1.8;
+    }
+
+    .article-title {
+      font-size: 28px;
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+
+    .article-meta {
+      font-size: 14px;
+      color: #888;
+      margin-bottom: 30px;
+    }
+
+    .article-img {
+      width: 100%;
+      max-height: 400px;
+      object-fit: cover;
+      margin-bottom: 30px;
+      border-radius: 6px;
+    }
+
+    .article-content p {
+      margin-bottom: 18px;
+      font-size: 17px;
+      color: #333;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-top: 40px;
+      color: #66bb6a;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    .back-link:hover {
+      text-decoration: underline;
+    }
+
+    footer.bottom-banner {
+      background-color: #eafaf1;
+      padding: 14px 0; /* 세로 길이 줄임 */
+      text-align: center;
+      font-size: 13px;
+      color: #666;
+      border-top: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 상단 바 -->
+  <div class="top-bar">
+    <a href="../index.html" class="logo">
+      <img src="img/WithPet_logo.png" alt="로고" />
+    </a>
+    <div class="detail-text"><span>행동패턴</span><span>상세정보</span></div>
+  </div>
+
+  <!-- 본문 -->
+  <div class="article-container">
+    <h2 class="article-title">짖음의 의미와 감정 해석</h2>
+    <div class="article-meta">작성일: 2025.06.07 ｜ 카테고리: <span style="color:#66bb6a;">행동 해석</span></div>
+    <img src="img/dog_behavior1.jpg" alt="강아지 행동 이미지" class="article-img" />
+
+    <div class="article-content">
+      <p>강아지는 짖음을 통해 사람과 소통한다. 강아지의 짖음은 감정 상태를 잘 반영하기에, 낮고 길게 짖는 소리는 주로 낯선 사람이나 위협적인 상황을 마주했을 때 나타난다. 이는 '경고'의 의미로, 강아지가 위험을 감지했거나 영역을 지키기 위한 본능적인 반응이다. 반대로 짧고 높고 빠르게 반복되는 짖음은 반가움이나 흥분을 나타낸다. 주인이 귀가했을 때, 산책 준비를 할 때 자주 들리는 짖음이 바로 이런 유형이다. 이 외에도 요구를 표현할 때, 예를 들어 배고프거나 놀고 싶을 때 강아지는 독특한 패턴의 짖음을 내기도 한다. 강아지의 짖음을 무조건 제지하기보다, 그 속에 담긴 의미를 먼저 파악하는 것이 중요하다. 상황과 짖음의 톤, 반복 여부를 종합적으로 살펴보면 강아지의 감정에 좀 더 가까이 다가갈 수 있다.</p>
+    </div>
+
+    <a href="dog_behavior.html" class="back-link">← 목록으로 돌아가기</a>
+  </div>
+
+  <!-- 하단 -->
+  <footer class="bottom-banner">
+    © 2025 WithPet | 반려동물과 더 가까이
+  </footer>
+
+</body>
+</html>
