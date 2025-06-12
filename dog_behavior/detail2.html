@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>강아지 행동 해석</title>
+  <title>귀의 위치로 알아보는 감정 신호</title>
   <link rel="stylesheet" href="dog_behavior.css" />
   <style>
     body {
@@ -12,36 +12,29 @@
       background-color: #ffffff;
     }
 
-    /* 상단 바 - 뉴스/블로그 스타일 */
     .top-bar {
       background-color: #ffffff;
       display: flex;
       align-items: center;
-      justify-content: flex-start;
-      padding: 20px 40px;
+      padding: 20px 40px 40px 40px;
       border-bottom: 1px solid #ddd;
-      gap: 40px; /* 로고와 텍스트 간격 증가 */
+      gap: 40px; 
     }
 
     .top-bar .logo img {
-      height: 55px;
-    }
+     height: 45px; 
+     margin-top: -15px; 
+     }
 
-    .detail-text {
-      font-size: 18px;
-      font-weight: bold;
+     .top-bar .logo span {
+     font-size: 1.5rem;
+     font-weight: bold;
+     color: black;
+     position: relative;
+     top: -16px;
     }
-
-    .detail-text span:first-child {
-      color: #444; /* 행동패턴 색상 */
-    }
-
-    .detail-text span:last-child {
-      color: #444; /* 상세정보 색상 (→ 목록으로 돌아가기와 동일하게) */
-      margin-left: 5px;
-    }
-
-    .article-container {
+   
+     .article-container {
       max-width: 900px;
       margin: 60px auto;
       padding: 0 30px;
@@ -100,21 +93,23 @@
 <body>
 
   <!-- 상단 바 -->
-  <div class="top-bar">
+ <div class="top-bar">
     <a href="../index.html" class="logo">
-      <img src="img/WithPet_logo.png" alt="로고" />
+      <img src="assets/img/dogandcat_green.png" alt="WithPet 로고" />
+      <span>WithPet</span>
     </a>
-    <div class="detail-text"><span>행동패턴</span><span>상세정보</span></div>
   </div>
-
   <!-- 본문 -->
   <div class="article-container">
     <h2 class="article-title">귀의 위치로 알아보는 감정 신호</h2>
-    <div class="article-meta">작성일: 2025.06.07 ｜ 카테고리: <span style="color:#66bb6a;">행동 해석</span></div>
-    <img src="img/dog_behavior1.jpg" alt="강아지 행동 이미지" class="article-img" />
+    <div class="article-meta">작성일: 2025.05.29 ｜ 카테고리: <span style="color:#66bb6a;">행동 해석</span></div>
+    <img src="assets/img/dog_behavior2.jpg" alt="강아지 행동 이미지2" class="article-img" />
 
     <div class="article-content">
-      <p>강아지의 귀가 앞으로 똑바로 세워져 있고 약간 쏠려 있다면, 이는 주변 환경이나 사람에게 관심을 갖고 있다는 뜻이다. 주인이 새로운 장난감을 꺼내거나 산책 가방을 만지는 순간, 강아지는 귀를 앞으로 세우며 집중하는 모습을 보인다. 반면 귀가 뒤로 눕거나 머리에 바짝 붙어 있다면, 이는 긴장하거나 두려움을 느끼고 있다는 신호다. 이러한 자세는 낯선 장소에 있거나 큰 소리에 놀랐을 때 자주 나타난다. 특히, 다른 개나 사람이 갑자기 다가올 때 귀를 몸에 바짝 붙이고 눈을 피한다면 경계심을 드러내는 것이다. 귀는 상황에 따라 매우 민감하게 반응하며, 꼬리나 눈빛과 함께 읽으면 강아지의 감정 상태를 더욱 정확히 파악할 수 있다.</p>
+      <p style="text-indent: 1em;"> 강아지의 귀는 외부 자극에 민감하게 반응하는 부위로, 주변 상황에 대한 인식과 반응을 가장 빠르게 드러낸다. 특히 귀의 위치나 움직임을 관찰하면 강아지가 현재 어떤 상황을 마주하고 있는지를 가늠할 수 있다.</p>
+      <p>귀가 앞으로 바짝 세워지고 살짝 기울어져 있는 모습은 주의 깊게 무언가를 살피고 있다는 뜻이다. 이는 새로운 소리나 익숙한 물건, 혹은 사람의 움직임에 호기심을 느낄 때 자주 나타나는 반응이다. 예를 들어, 장난감을 꺼내거나 산책 준비를 할 때 강아지가 귀를 앞으로 내밀며 집중하는 모습을 보이곤 한다. 이런 모습은 경쾌하고 깨어 있는 상태를 보여주는 신호다.</p><p>반대로 귀가 머리에 붙을 정도로 뒤로 눕는 경우에는 불편함이나 위축된 반응이 드러나는 상황일 가능성이 높다. 갑작스러운 소음이나 낯선 사람의 접근, 혹은 이전에 좋지 않은 경험이 있었던 장소에 들어섰을 때 이러한 귀의 움직임이 나타난다. 특히 시선을 회피하거나 몸을 웅크리는 행동이 함께 나타나면, 불안하거나 조심스러운 상태로 판단할 수 있다.</p>
+      <p>또한 귀의 미세한 떨림이나 방향 전환은 긴장이나 경계 반응의 일부일 수 있다. 다른 동물이나 낯선 환경에서 소리의 방향을 정확히 파악하기 위해 귀를 이리저리 움직이는 행동은, 단순한 청각 반응을 넘어 주변 상황을 판단하려는 반응이다.</p>
+      <p>귀의 위치로 행동을 단독으로 해석하기보다 꼬리, 얼굴 표정, 자세 등 다른 행동 신호들과 함께 관찰하는 것이 중요하다.</p>
     </div>
 
     <a href="dog_behavior.html" class="back-link">← 목록으로 돌아가기</a>
