@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>강아지 행동해석</title>
+  <title>짖음의 의미와 감정 해석</title>
   <link rel="stylesheet" href="dog_behavior.css" />
   <style>
     body {
@@ -12,36 +12,29 @@
       background-color: #ffffff;
     }
 
-    /* 상단 바 - 뉴스/블로그 스타일 */
     .top-bar {
       background-color: #ffffff;
       display: flex;
       align-items: center;
-      justify-content: flex-start;
-      padding: 20px 40px;
+      padding: 20px 40px 40px 40px;
       border-bottom: 1px solid #ddd;
-      gap: 40px; /* 로고와 텍스트 간격 증가 */
+      gap: 40px; 
     }
 
     .top-bar .logo img {
-      height: 55px;
-    }
+     height: 45px; 
+     margin-top: -15px; 
+     }
 
-    .detail-text {
-      font-size: 18px;
-      font-weight: bold;
+     .top-bar .logo span {
+     font-size: 1.5rem;
+     font-weight: bold;
+     color: black;
+     position: relative;
+     top: -16px;
     }
-
-    .detail-text span:first-child {
-      color: #444; /* 행동패턴 색상 */
-    }
-
-    .detail-text span:last-child {
-      color: #444; /* 상세정보 색상 (→ 목록으로 돌아가기와 동일하게) */
-      margin-left: 5px;
-    }
-
-    .article-container {
+   
+     .article-container {
       max-width: 900px;
       margin: 60px auto;
       padding: 0 30px;
@@ -100,21 +93,24 @@
 <body>
 
   <!-- 상단 바 -->
-  <div class="top-bar">
+ <div class="top-bar">
     <a href="../index.html" class="logo">
-      <img src="img/WithPet_logo.png" alt="로고" />
+      <img src="assets/img/dogandcat_green.png" alt="WithPet 로고" />
+      <span>WithPet</span>
     </a>
-    <div class="detail-text"><span>행동패턴</span><span>상세정보</span></div>
   </div>
-
   <!-- 본문 -->
   <div class="article-container">
     <h2 class="article-title">짖음의 의미와 감정 해석</h2>
     <div class="article-meta">작성일: 2025.06.07 ｜ 카테고리: <span style="color:#66bb6a;">행동 해석</span></div>
-    <img src="img/dog_behavior1.jpg" alt="강아지 행동 이미지" class="article-img" />
+    <img src="assets/img/dog_behavior3.jpg" alt="강아지 행동 이미지3" class="article-img" />
 
     <div class="article-content">
-      <p>강아지는 짖음을 통해 사람과 소통한다. 강아지의 짖음은 감정 상태를 잘 반영하기에, 낮고 길게 짖는 소리는 주로 낯선 사람이나 위협적인 상황을 마주했을 때 나타난다. 이는 '경고'의 의미로, 강아지가 위험을 감지했거나 영역을 지키기 위한 본능적인 반응이다. 반대로 짧고 높고 빠르게 반복되는 짖음은 반가움이나 흥분을 나타낸다. 주인이 귀가했을 때, 산책 준비를 할 때 자주 들리는 짖음이 바로 이런 유형이다. 이 외에도 요구를 표현할 때, 예를 들어 배고프거나 놀고 싶을 때 강아지는 독특한 패턴의 짖음을 내기도 한다. 강아지의 짖음을 무조건 제지하기보다, 그 속에 담긴 의미를 먼저 파악하는 것이 중요하다. 상황과 짖음의 톤, 반복 여부를 종합적으로 살펴보면 강아지의 감정에 좀 더 가까이 다가갈 수 있다.</p>
+      <p style="text-indent: 1em;"> 강아지는 짖음을 통해 자신의 상태를 전달하고 주변과 교류한다. 짖음은 상황에 대한 반응과 의도를 담고 있는 신호 체계이다.</p>
+      <p>낮고 길게 이어지는 짖음은 주로 낯선 사람이 접근했을 때나 이상한 낌새를 느꼈을 때 나타난다. 이는 경계심이나 위협에 대한 본능적인 반응으로, 자신과 주변을 보호하려는 의도가 담겨 있다. 이럴 땐 주변 환경을 함께 점검하며 원인을 찾아보는 것이 중요하다.</p>
+      <p>반면에 높고 짧은 소리를 빠르게 반복하는 경우는 전혀 다른 상황에서 나타난다. 주인이 집에 돌아왔을 때나 산책 줄을 꺼내 드는 순간처럼, 반가움이나 기대감이 크게 고조될 때 주로 들을 수 있다. 목소리 톤이 밝고 리듬감 있는 경우, 대부분 긍정적인 반응으로 해석할 수 있다.</p>
+      <p>또한 강아지는 자신의 필요를 표현하기 위해 짖음을 활용하기도 한다. 배가 고프거나 놀고 싶을 때, 또는 관심을 끌고 싶을 때 일정한 간격으로 특유의 패턴을 보이며 짖는다. 상황에 따라 울음 섞인 소리를 내기도 하며, 이를 단순한 떼쓰기로 오해하지 않도록 주의가 필요하다.</p>
+      <p>강아지의 짖음의 높낮이, 반복 여부, 상황과의 연관성을 함께 고려한다면, 단순한 행동 이상으로 강아지의 의사 표현을 보다 깊이 이해할 수 있게 될 것이다.</p>
     </div>
 
     <a href="dog_behavior.html" class="back-link">← 목록으로 돌아가기</a>
