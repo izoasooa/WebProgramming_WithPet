@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>강아지 행동해석</title>
+  <title>핥기 행동의 의미와 주의점</title>
   <link rel="stylesheet" href="dog_behavior.css" />
   <style>
     body {
@@ -12,36 +12,29 @@
       background-color: #ffffff;
     }
 
-    /* 상단 바 - 뉴스/블로그 스타일 */
     .top-bar {
       background-color: #ffffff;
       display: flex;
       align-items: center;
-      justify-content: flex-start;
-      padding: 20px 40px;
+      padding: 20px 40px 40px 40px;
       border-bottom: 1px solid #ddd;
-      gap: 40px; /* 로고와 텍스트 간격 증가 */
+      gap: 40px; 
     }
 
     .top-bar .logo img {
-      height: 55px;
-    }
+     height: 45px; 
+     margin-top: -15px; 
+     }
 
-    .detail-text {
-      font-size: 18px;
-      font-weight: bold;
+     .top-bar .logo span {
+     font-size: 1.5rem;
+     font-weight: bold;
+     color: black;
+     position: relative;
+     top: -16px;
     }
-
-    .detail-text span:first-child {
-      color: #444; /* 행동패턴 색상 */
-    }
-
-    .detail-text span:last-child {
-      color: #444; /* 상세정보 색상 (→ 목록으로 돌아가기와 동일하게) */
-      margin-left: 5px;
-    }
-
-    .article-container {
+   
+     .article-container {
       max-width: 900px;
       margin: 60px auto;
       padding: 0 30px;
@@ -100,21 +93,23 @@
 <body>
 
   <!-- 상단 바 -->
-  <div class="top-bar">
+ <div class="top-bar">
     <a href="../index.html" class="logo">
-      <img src="img/WithPet_logo.png" alt="로고" />
+      <img src="assets/img/dogandcat_green.png" alt="WithPet 로고" />
+      <span>WithPet</span>
     </a>
-    <div class="detail-text"><span>행동패턴</span><span>상세정보</span></div>
   </div>
-
   <!-- 본문 -->
   <div class="article-container">
     <h2 class="article-title">핥기 행동의 의미와 주의점</h2>
     <div class="article-meta">작성일: 2025.06.07 ｜ 카테고리: <span style="color:#66bb6a;">행동 해석</span></div>
-    <img src="img/dog_behavior1.jpg" alt="강아지 행동 이미지" class="article-img" />
+    <img src="assets/img/dog_behavior4.jpg" alt="강아지 행동 이미지4" class="article-img" />
 
     <div class="article-content">
-      <p>강아지가 주인을 핥는 행동은 애정 표현의 대표적인 예이다. 이는 어릴 때 어미 개가 새끼를 핥아주며 유대감을 형성하는 습성에서 비롯된 행동으로, 인간과의 관계에서도 동일한 의미로 나타난다. 강아지가 손이나 얼굴을 살짝 핥는 것은 신뢰와 친밀함의 표현이다. 하지만 핥기가 지나치게 자주 반복되거나, 특정 상황에서 강박적으로 나타난다면 이는 불안이나 스트레스의 징후일 수 있다. 예를 들어, 혼자 남겨졌을 때, 새로운 환경에 노출됐을 때 갑자기 핥는 행동이 많아진다면 심리적 긴장이 원인일 수 있다. 또 피부를 과하게 핥는 경우 피부염이나 알레르기 같은 건강 문제와도 연관될 수 있다. 핥는 대상, 빈도, 시기 등을 면밀히 관찰하고 필요 시 수의사나 행동 전문가의 상담을 받는 것이 좋다. 적절한 핥기는 긍정적인 신호지만, 그것이 강박적으로 바뀌는 순간 주의가 필요하다.</p>
+      <p>강아지가 주인을 핥는 행동은 흔히 애정의 표현으로 여겨진다. 이는 어릴 적 어미 개가 새끼를 핥으며 유대감을 형성하던 습성에서 비롯된 것으로, 사람과의 관계에서도 유사한 방식으로 나타난다. 강아지가 손이나 얼굴을 부드럽게 핥을 때, 이는 신뢰와 친밀함을 전달하는 긍정적인 신호로 볼 수 있다.</p>
+      <p>하지만 이 행동이 지나치게 빈번하거나 특정 상황에서 반복적으로 나타난다면 단순한 애정 표현을 넘어 불안이나 스트레스를 나타내는 신호일 수 있다. 예를 들어, 혼자 남겨진 뒤 갑자기 핥는 행동이 늘어나거나 낯선 환경에서 유난히 그런 행동을 보인다면, 심리적인 긴장감이 원인일 가능성이 있다.</p>
+      <p>또한 자신의 피부를 계속해서 핥는다면 단순한 습관이 아니라 피부염, 알레르기, 혹은 통증과 같은 신체적인 이상과 관련이 있을 수도 있다. 이처럼 핥는 행동은 상황과 맥락에 따라 그 의미가 크게 달라질 수 있기 때문에, 핥는 부위, 빈도, 시기 등을 세심하게 관찰하는 것이 중요하다.</p>
+      <p>적절한 핥기는 관계를 돈독히 하는 긍정적 행동이지만, 그 빈도나 강도가 과해져 강박적으로 보일 경우에는 수의사나 반려동물 행동 전문가와 상담을 고려해야 한다. 강아지의 평소 행동과 변화 양상을 잘 살피는 것이 건강과 정서 상태를 이해하는 데 큰 도움이 된다.</p>
     </div>
 
     <a href="dog_behavior.html" class="back-link">← 목록으로 돌아가기</a>
