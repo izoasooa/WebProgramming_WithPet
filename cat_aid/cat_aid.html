@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>고양이 응급처치</title>
+  <link rel="stylesheet" href="cat_aid.css" />
+</head>
+<body>
+ <div class="top-bar">
+  <a href="../index.html" class="logo" style="display: flex; align-items: center; gap: 10px; text-decoration: none;">
+    <img src="assets/img/dogandcat.png" alt="WithPet 로고" style="height: 50px;" />
+    <span style="font-size: 1.5rem; font-weight: bold; color: black;">WithPet</span>
+   </a>
+   <a href="#">강아지</a>
+   <a href="../고양이.html">고양이</a>
+   <a href="#">24시 동물병원</a>
+  </div>
+
+  <nav class="main-menu">
+    <ul>
+      <li><a href="#">지식정보</a></li>
+      <li><a href="cat_aid.html" class="active">응급처치</a></li>
+      <li><a href="../cat_behavior/cat_behavior.html">행동패턴</a></li>
+    </ul>
+  </nav>
+
+  <header class="banner">
+    <h1>고양이 응급처치 알아보기</h1>
+    <p>우리 고양이에게 위급한 상황, 어떻게 대처할까요?</p>
+  </header>
+
+  <section class="container">
+   <div class="text-box" onclick="toggleContent(this)">
+  <img src="assets/img/cat_aid1.jpg" alt="응급처치1" />
+  <div class="text-content">
+    <h3>호흡곤란 대처법</h3>
+    <div class="detail-content">
+      고양이가 갑자기 숨을 헐떡이거나 목을 빼고 입을 벌리는 등 이상 행동을 보인다면 기도 폐쇄나 폐 질환이 원인일 수 있다. 입 안에 이물질이 보이면 손가락으로 조심스럽게 제거해야 하는 것이 중요하다. 기도가 막힌 것 같다면 하임리히법을 시도한다. 양손으로 복부를 감싸듯 잡고 갈비뼈 아래를 위로 밀어내듯이 압박하면 이물질이 튀어나올 수 있다. 호흡이 멎었거나 맥박이 느껴지지 않으면 심폐소생술을 즉시 시작한다. 또 심장 부위를 규칙적으로 압박하면서 동시에 코를 통해 인공호흡을 반복하고, 최대한 빠르게 병원으로 이동해야 한다.
+    </div>
+  </div>
+</div>
+
+<div class="text-box" onclick="toggleContent(this)">
+  <img src="assets/img/cat_aid2.jpg" alt="응급처치2" />
+  <div class="text-content">
+    <h3>배뇨곤란(대동맥 혈전 색전증) 대처법</h3>
+    <div class="detail-content">
+      고양이가 소변을 시도하지만 나오지 않거나, 화장실에 자주 가면서 울음소리를 낸다면 요로 폐색이 의심된다. 상태가 악화되면 방광 파열이나 신장 손상으로 이어질 수 있다. 이러한 증상이 보이면 억지로 배뇨를 유도하지 말고, 체온을 유지한 상태로 고양이를 조심스럽게 담요에 감싸고 즉시 병원으로 이동해야 한다. 응급으로 카테터를 삽입해 소변을 배출해야 하므로 집에서는 따로 손대지 않는 것이 좋다.
+    </div>
+  </div>
+</div>
+
+<div class="text-box" onclick="toggleContent(this)">
+  <img src="assets/img/cat_aid3.jpg" alt="응급처치3" />
+  <div class="text-content">
+    <h3>후지마비 대처법</h3>
+    <div class="detail-content">
+    갑자기 뒷다리를 끌거나 비명을 지르며 걷지 못하는 경우, 대동맥 혈전 색전증이 원인일 수 있다. 뒷다리의 발바닥이 창백하거나 차가워지고, 만졌을 때 심한 통증이 있다면 혈류 차단이 의심된다. 이 상태는 매우 급박한 상황이므로, 고양이를 움직이지 않도록 조심히 담요로 싸고 안정된 자세를 유지한 채 바로 병원으로 가야 한다. 시간이 지체될수록 회복 가능성이 낮아지므로 신속한 대처가 필수이다.  
+    </div>
+  </div>
+</div>
+
+  </section>
+  
+  <section class="video-section" id="video-section"></section>
+
+  <div class="pagination">
+    <button id="prevBtn">‹</button>
+    <span id="pageIndicator">1 / 3</span>
+    <button id="nextBtn">›</button>
+  </div>
+
+  <footer class="bottom-banner"></footer>
+
+  <script src="cat_aid.js"></script>
+</body>
+</html>
