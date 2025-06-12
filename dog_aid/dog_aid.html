@@ -7,18 +7,19 @@
   <link rel="stylesheet" href="dog_aid.css" />
 </head>
 <body>
-  <div class="top-bar">
-    <a href="../index.html" class="logo">
-      <img src="img/WithPet_logo.png" alt="로고" />
-    </a>
-    <a href="#">강아지</a>
-    <a href="#">고양이</a>
-    <a href="#">24시 동물병원</a>
+ <div class="top-bar">
+  <a href="../index.html" class="logo" style="display: flex; align-items: center; gap: 10px; text-decoration: none;">
+    <img src="assets/img/dogandcat.png" alt="WithPet 로고" style="height: 50px;" />
+    <span style="font-size: 1.5rem; font-weight: bold; color: black;">WithPet</span>
+   </a>
+   <a href="../강아지.html">강아지</a>
+   <a href="#">고양이</a>
+   <a href="#">24시 동물병원</a>
   </div>
 
   <nav class="main-menu">
     <ul>
-      <li><a href="../knowledge/knowledge.html">지식정보</a></li>
+      <li><a href="#">지식정보</a></li>
       <li><a href="dog_aid.html" class="active">응급처치</a></li>
       <li><a href="../dog_behavior/dog_behavior.html">행동패턴</a></li>
     </ul>
@@ -31,7 +32,7 @@
 
   <section class="container">
    <div class="text-box" onclick="toggleContent(this)">
-  <img src="img/dog_aid1.jpg" alt="응급처치1" />
+  <img src="assets/img/dog_aid1.jpg" alt="응급처치1" />
   <div class="text-content">
     <h3>숨쉬기 힘들어할 때 대처법</h3>
     <div class="detail-content">
@@ -41,7 +42,7 @@
 </div>
 
 <div class="text-box" onclick="toggleContent(this)">
-  <img src="img/dog_aid2.jpg" alt="응급처치2" />
+  <img src="assets/img/dog_aid2.jpg" alt="응급처치2" />
   <div class="text-content">
     <h3>상처를 입었을 때 대처법</h3>
     <div class="detail-content">
@@ -51,7 +52,7 @@
 </div>
 
 <div class="text-box" onclick="toggleContent(this)">
-  <img src="img/dog_aid3.jpg" alt="응급처치3" />
+  <img src="assets/img/dog_aid3.jpg" alt="응급처치3" />
   <div class="text-content">
     <h3>이물질 섭취 시 대처법</h3>
     <div class="detail-content">
@@ -62,7 +63,6 @@
 
   </section>
   
-
   <section class="video-section" id="video-section"></section>
 
   <div class="pagination">
