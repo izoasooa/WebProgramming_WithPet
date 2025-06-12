@@ -1,0 +1,235 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 30px;
+  background-color: #ffffff;
+  font-size: 20px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 24px;
+  position: absolute;
+  left: 1px;
+  top: 60%;
+  transform: translateY(-50%);
+  padding: 0 20px;
+}
+
+.logo img {
+  height: 40px;
+  width: auto;          /* 가로 비율 유지 */
+  object-fit: contain;  /* 잘림 방지 */
+  margin-top: 10px;
+}  
+
+.top-bar a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+.main-menu {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+  font-weight: 300;
+}
+
+.main-menu ul {
+  display: inline-flex;
+  list-style: none;
+  gap: 60px;
+  padding: 0;
+  margin: 0;
+}
+
+.main-menu a {
+  color: #4caf50;
+  text-decoration: none;
+  padding-bottom: 4px;
+  border-bottom: 2px solid transparent;
+  font-size: 18px;
+}
+.main-menu a:hover {
+  color: #2e7d32;
+  border-bottom: 3px solid #a5d6a7;
+}
+
+.main-menu a.active {
+  font-weight: 700;
+  color: #2e7d32;
+  border-bottom: 3px solid #66bb6a;
+}
+
+.menu-section {
+    margin: 50px auto 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.menu-card {
+    background-color: #f5f5f5;
+    color: #444;
+    border-radius: 16px;
+    padding: 10px 10px;
+    font-weight: 600;
+    font-size: 17px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.menu-card:hover {
+    background-color: #d9f0d9;
+    color: #2d6a4f;
+}
+
+.menu-card.active {
+    background-color: #b7e4c7;
+    color: #1b4332;
+}
+
+.content-container {
+    max-width: 1000px;
+    margin: 30px auto 60px;
+    padding: 0 20px;
+}
+
+.info-box {
+  border: none;
+  border-radius: 16px;
+  margin-bottom: 20px;
+  padding: 25px;
+  background-color: #f5f5f5;
+  color: #444;
+}
+
+.info-box h3 {
+  margin-top: 0;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #2b4d2e;
+}
+
+.info-box h4 {
+  margin-top: 0;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.info-box ol {
+  margin: 10px 0 0 20px;
+  padding: 0;
+}
+
+.numbered-list {
+  list-style: none;   /*기본 숫자 제거*/
+  padding-left: 0;
+  margin: 0;
+}
+
+.numbered-list li {
+  display: flex;
+  align-items: baseline;  /*숫자와 글자의 기준선을 맞춤*/
+  align-bottom: 0.5em;
+  font-size: 18px;
+}
+
+.numbered-list .number {
+  width: 2em;           /*숫자 영역 고정 너비*/
+  text-align: right;    /*오른쪽 정렬*/
+  margin-right: 0.5em;  /*숫자와 내용 사이의 간격*/
+  font-weight: bold;
+  color: black;
+}
+
+.numbered-list .content {
+  flex: 1;
+
+}
+
+.info-box.bullet-list ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px 40px;
+  list-style: none;
+  margin: 10px 0 0 20px;
+  padding: 0;
+}
+
+.info-box.bullet-list ul li {
+  position: relative;
+  padding-left: 16px;
+  font-size: 18px;
+}
+
+.info-box.bullet-list ul li::before {
+  position: absolute;
+  left: 0;
+  font-size: 18px;
+}
+
+.info-box-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.info-box-card {
+  background-color: #fff;
+  border: 2px solid #ccc;
+  border-radius: 16px;
+  padding: 10px;
+}
+
+
+.info-box-card.active {
+  border-color: #66bb6a;
+  background-color: #F0FFF0;
+  color: #2d6a4f;
+  box-shadow: 0 0 12px rgba(240, 255, 240, 1);
+}
+
+.info-box-card ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.info-box-card ul li {
+  font-size: 17px;
+  line-height: 1.8;
+  margin-bottom: 5px;
+}
+
+.info-box-card {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.info-box.bullet-list a:hover {
+  color: green;
+  text-decoration: underline;
+}
