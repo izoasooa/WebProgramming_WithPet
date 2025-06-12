@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 30px;
+  background-color: #ffffff;
+  font-size: 20px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.logo {
+  position: absolute;
+  left: 1px;
+  top: 80%;
+  transform: translateY(-50%);
+}
+
+.logo img {
+  height: 120px;
+  width: auto;
+}
+
+.top-bar a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+.main-menu {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+  font-weight: 300;
+}
+
+.main-menu ul {
+  display: inline-flex;
+  list-style: none;
+  gap: 60px;
+  padding: 0;
+  margin: 0;
+}
+
+.main-menu a {
+  color: #000;
+  text-decoration: none;
+  padding-bottom: 4px;
+  border-bottom: 2px solid transparent;
+  font-size: 18px;
+}
+
+.main-menu a.active {
+  border-bottom: 2px solid #66bb6a;
+}
+
+.banner {
+  background-color: #e8f5e9;
+  text-align: center;
+  padding: 50px 20px 60px;
+  color: #2e7d32;
+  margin-top: 40px;
+}
+
+.container {
+  padding: 40px;
+  max-width: none;  /* 최대 너비 제한 해제 */
+  margin: 0 auto;
+}
+
+.text-box {
+  /* 기존 그대로 유지 */
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1000px;
+  height: auto; /* 높이는 유동적으로 */
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 30px 0;
+  background-color: #f9f9f9;
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.text-box img {
+  width: 180px;
+  height: auto;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.main-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+
+.text-content {
+  width: 100%;
+}
+
+.detail-content {
+  display: none;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  width: 100%;
+  overflow-wrap: break-word;
+}
+
+.text-box.active .detail-content {
+  display: block;
+}
+
+.video-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  padding: 40px 100px;
+}
+
+.video-section iframe {
+  width: 100%;
+  height: 260px;
+  border: none;
+}
+
+.pagination {
+  text-align: center;
+  padding: 20px;
+}
+
+.pagination button {
+  padding: 12px 18px;
+  margin: 0 10px;
+  border: none;
+  background-color: transparent;
+  color: #66bb6a;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.pagination span {
+  font-size: 15px;
+}
+
+.bottom-banner {
+  background-color: #e8f5e9;
+  height: 80px;
+  width: 100%;
+}
