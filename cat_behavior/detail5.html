@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>고양이의 소통 방식</title>
+  <link rel="stylesheet" href="cat_behavior.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: "Arial", sans-serif;
+      background-color: #ffffff;
+    }
+
+    .top-bar {
+      background-color: #ffffff;
+      display: flex;
+      align-items: center;
+      padding: 20px 40px 40px 40px;
+      border-bottom: 1px solid #ddd;
+      gap: 40px; 
+    }
+
+    .top-bar .logo img {
+     height: 45px; 
+     margin-top: -15px; 
+     }
+
+     .top-bar .logo span {
+     font-size: 1.5rem;
+     font-weight: bold;
+     color: black;
+     position: relative;
+     top: -16px;
+    }
+   
+     .article-container {
+      max-width: 900px;
+      margin: 60px auto;
+      padding: 0 30px;
+      line-height: 1.8;
+    }
+
+    .article-title {
+      font-size: 28px;
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+
+    .article-meta {
+      font-size: 14px;
+      color: #888;
+      margin-bottom: 30px;
+    }
+
+    .article-img {
+      width: 100%;
+      max-height: 400px;
+      object-fit: cover;
+      margin-bottom: 30px;
+      border-radius: 6px;
+    }
+
+    .article-content p {
+      margin-bottom: 18px;
+      font-size: 17px;
+      color: #333;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-top: 40px;
+      color: #66bb6a;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    .back-link:hover {
+      text-decoration: underline;
+    }
+
+    footer.bottom-banner {
+      background-color: #eafaf1;
+      padding: 14px 0; /* 세로 길이 줄임 */
+      text-align: center;
+      font-size: 13px;
+      color: #666;
+      border-top: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 상단 바 -->
+ <div class="top-bar">
+    <a href="../index.html" class="logo">
+      <img src="assets/img/dogandcat_green.png" alt="WithPet 로고" />
+      <span>WithPet</span>
+    </a>
+  </div>
+  <!-- 본문 -->
+  <div class="article-container">
+    <h2 class="article-title">고양이의 소통 방식</h2>
+    <div class="article-meta">작성일: 2025.05.26 ｜ 카테고리: <span style="color:#66bb6a;">행동 해석</span></div>
+    <img src="assets/img/cat_behavior1.jpg" alt="고양이 행동 이미지1" class="article-img" />
+
+    <div class="article-content">
+      <p style="text-indent: 1em;">고양이는 시각, 청각, 후각을 모두 동원해 감정을 표현한다. 꼬리가 수직으로 올라가 있으면 반가움이나 자신감이 담겨 있고, 수평으로 펴져 있다면 편안함의 상태로 볼 수 있다. 꼬리가 움츠러들거나 다리 사이로 들어가는 경우는 불안이나 두려움에 가깝다.</p> 
+      <p>청각적으로는 그르렁거림, 하악질, 낮은 growl, 높은 meow 등을 상황에 따라 조합해 사용하며, 이를 통해 친밀함이나 경고, 공포감을 전달한다.</p> 
+      <p>후각적 소통은 몸의 특정 부위에서 분비되는 채취를 통해 이뤄진다. 꼬리, 이마, 턱, 발바닥, 수염 등은 고양이의 ‘향기 마커’ 역할을 하며, 영역 표시나 애착 표현의 수단이 된다.</p>
+    </div>
+    <a href="cat_behavior.html" class="back-link">← 목록으로 돌아가기</a>
+  </div>
+
+  <!-- 하단 -->
+  <footer class="bottom-banner">
+    © 2025 WithPet | 반려동물과 더 가까이
+  </footer>
+
+</body>
+</html>
